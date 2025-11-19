@@ -1,0 +1,3302 @@
+[
+  {
+    "conversation_id": "eval_0001",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Paris, I work as a nurse, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris reading fantasy books. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Seoul. So now I live in Seoul, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a university professor is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a nurse?",
+        "gold_answer": "You originally said you lived in Paris and worked as a nurse, but later you clarified that you actually moved to Seoul and changed your job to university professor.",
+        "keywords": [
+          "Paris",
+          "Seoul",
+          "nurse",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Seoul was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a university professor.",
+        "keywords": [
+          "Seoul",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a university professor who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0002",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Taylor. I live in Madrid, I work as a mechanical engineer, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid cooking new recipes. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Rome. So now I live in Rome, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a electrical engineer is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a mechanical engineer, but later you clarified that you actually moved to Rome and changed your job to electrical engineer.",
+        "keywords": [
+          "Madrid",
+          "Rome",
+          "mechanical engineer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Rome was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Rome",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a electrical engineer who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0003",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Tokyo, I work as a software engineer, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo playing basketball. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Chicago. So now I live in Chicago, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a data scientist is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a software engineer?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a software engineer, but later you clarified that you actually moved to Chicago and changed your job to data scientist.",
+        "keywords": [
+          "Tokyo",
+          "Chicago",
+          "software engineer",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Chicago was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a data scientist.",
+        "keywords": [
+          "Chicago",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a data scientist who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0004",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in London, I work as a chef, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London cooking new recipes. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Lisbon. So now I live in Lisbon, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a data scientist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a chef?",
+        "gold_answer": "You originally said you lived in London and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to data scientist.",
+        "keywords": [
+          "London",
+          "Lisbon",
+          "chef",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Lisbon was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a data scientist.",
+        "keywords": [
+          "Lisbon",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a data scientist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0005",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Madrid, I work as a mechanical engineer, and I really enjoy playing the guitar. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid playing the guitar. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Seoul. So now I live in Seoul, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a restaurant owner. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a restaurant owner is very flexible, so I still find time for playing the guitar."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a mechanical engineer, but later you clarified that you actually moved to Seoul and changed your job to restaurant owner.",
+        "keywords": [
+          "Madrid",
+          "Seoul",
+          "mechanical engineer",
+          "restaurant owner",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Seoul was mainly because I found a great opportunity as a restaurant owner."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a restaurant owner.",
+        "keywords": [
+          "Seoul",
+          "restaurant owner",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a restaurant owner who loves playing the guitar has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0006",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Berlin, I work as a nurse, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin reading fantasy books. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Lisbon. So now I live in Lisbon, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a data scientist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a nurse?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a nurse, but later you clarified that you actually moved to Lisbon and changed your job to data scientist.",
+        "keywords": [
+          "Berlin",
+          "Lisbon",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Lisbon was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a data scientist.",
+        "keywords": [
+          "Lisbon",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a data scientist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0007",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in New York, I work as a teacher, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York hiking in the mountains. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Sydney. So now I live in Sydney, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Sydney, my schedule as a university professor is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a teacher?",
+        "gold_answer": "You originally said you lived in New York and worked as a teacher, but later you clarified that you actually moved to Sydney and changed your job to university professor.",
+        "keywords": [
+          "New York",
+          "Sydney",
+          "teacher",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Sydney was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Sydney and that you currently work as a university professor.",
+        "keywords": [
+          "Sydney",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Sydney as a university professor who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0008",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Paris, I work as a software engineer, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris hiking in the mountains. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Chicago. So now I live in Chicago, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a product manager is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a software engineer?",
+        "gold_answer": "You originally said you lived in Paris and worked as a software engineer, but later you clarified that you actually moved to Chicago and changed your job to product manager.",
+        "keywords": [
+          "Paris",
+          "Chicago",
+          "software engineer",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Chicago was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a product manager.",
+        "keywords": [
+          "Chicago",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a product manager who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0009",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Avery. I live in New York, I work as a mechanical engineer, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York cooking new recipes. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Rome. So now I live in Rome, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a artist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in New York and worked as a mechanical engineer, but later you clarified that you actually moved to Rome and changed your job to artist.",
+        "keywords": [
+          "New York",
+          "Rome",
+          "mechanical engineer",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Rome was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a artist.",
+        "keywords": [
+          "Rome",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a artist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0010",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Berlin, I work as a chef, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin photography. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Rome. So now I live in Rome, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a product manager is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a chef?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a chef, but later you clarified that you actually moved to Rome and changed your job to product manager.",
+        "keywords": [
+          "Berlin",
+          "Rome",
+          "chef",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Rome was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a product manager.",
+        "keywords": [
+          "Rome",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a product manager who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0011",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Avery. I live in New York, I work as a teacher, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York playing basketball. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Lisbon. So now I live in Lisbon, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a electrical engineer is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a teacher?",
+        "gold_answer": "You originally said you lived in New York and worked as a teacher, but later you clarified that you actually moved to Lisbon and changed your job to electrical engineer.",
+        "keywords": [
+          "New York",
+          "Lisbon",
+          "teacher",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Lisbon was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Lisbon",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a electrical engineer who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0012",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Alex. I live in Madrid, I work as a nurse, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid reading fantasy books. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Toronto. So now I live in Toronto, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a data scientist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a nurse?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a nurse, but later you clarified that you actually moved to Toronto and changed your job to data scientist.",
+        "keywords": [
+          "Madrid",
+          "Toronto",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Toronto was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a data scientist.",
+        "keywords": [
+          "Toronto",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a data scientist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0013",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Berlin, I work as a graphic designer, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin hiking in the mountains. It helps me relax after my work as a graphic designer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Sydney. So now I live in Sydney, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a graphic designer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Sydney, my schedule as a electrical engineer is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a graphic designer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a graphic designer, but later you clarified that you actually moved to Sydney and changed your job to electrical engineer.",
+        "keywords": [
+          "Berlin",
+          "Sydney",
+          "graphic designer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Sydney was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Sydney and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Sydney",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Sydney as a electrical engineer who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0014",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Taylor. I live in New York, I work as a teacher, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York hiking in the mountains. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Sydney. So now I live in Sydney, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Sydney, my schedule as a electrical engineer is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a teacher?",
+        "gold_answer": "You originally said you lived in New York and worked as a teacher, but later you clarified that you actually moved to Sydney and changed your job to electrical engineer.",
+        "keywords": [
+          "New York",
+          "Sydney",
+          "teacher",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Sydney was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Sydney and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Sydney",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Sydney as a electrical engineer who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0015",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Tokyo, I work as a teacher, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo photography. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Seoul. So now I live in Seoul, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a restaurant owner. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a restaurant owner is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a teacher?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a teacher, but later you clarified that you actually moved to Seoul and changed your job to restaurant owner.",
+        "keywords": [
+          "Tokyo",
+          "Seoul",
+          "teacher",
+          "restaurant owner",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Seoul was mainly because I found a great opportunity as a restaurant owner."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a restaurant owner.",
+        "keywords": [
+          "Seoul",
+          "restaurant owner",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a restaurant owner who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0016",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in London, I work as a graphic designer, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London photography. It helps me relax after my work as a graphic designer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Chicago. So now I live in Chicago, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a graphic designer, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a product manager is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a graphic designer?",
+        "gold_answer": "You originally said you lived in London and worked as a graphic designer, but later you clarified that you actually moved to Chicago and changed your job to product manager.",
+        "keywords": [
+          "London",
+          "Chicago",
+          "graphic designer",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Chicago was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a product manager.",
+        "keywords": [
+          "Chicago",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a product manager who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0017",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Chris. I live in London, I work as a nurse, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London reading fantasy books. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Seoul. So now I live in Seoul, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a data scientist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a nurse?",
+        "gold_answer": "You originally said you lived in London and worked as a nurse, but later you clarified that you actually moved to Seoul and changed your job to data scientist.",
+        "keywords": [
+          "London",
+          "Seoul",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Seoul was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a data scientist.",
+        "keywords": [
+          "Seoul",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a data scientist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0018",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Alex. I live in New York, I work as a nurse, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York reading fantasy books. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Chicago. So now I live in Chicago, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a data scientist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a nurse?",
+        "gold_answer": "You originally said you lived in New York and worked as a nurse, but later you clarified that you actually moved to Chicago and changed your job to data scientist.",
+        "keywords": [
+          "New York",
+          "Chicago",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Chicago was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a data scientist.",
+        "keywords": [
+          "Chicago",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a data scientist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0019",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Avery. I live in Madrid, I work as a teacher, and I really enjoy playing the guitar. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid playing the guitar. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Sydney. So now I live in Sydney, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Sydney, my schedule as a electrical engineer is very flexible, so I still find time for playing the guitar."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a teacher?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a teacher, but later you clarified that you actually moved to Sydney and changed your job to electrical engineer.",
+        "keywords": [
+          "Madrid",
+          "Sydney",
+          "teacher",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Sydney was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Sydney and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Sydney",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Sydney as a electrical engineer who loves playing the guitar has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0020",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in Madrid, I work as a teacher, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid reading fantasy books. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Chicago. So now I live in Chicago, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a product manager is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a teacher?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a teacher, but later you clarified that you actually moved to Chicago and changed your job to product manager.",
+        "keywords": [
+          "Madrid",
+          "Chicago",
+          "teacher",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Chicago was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a product manager.",
+        "keywords": [
+          "Chicago",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a product manager who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0021",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Madrid, I work as a chef, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid photography. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Lisbon. So now I live in Lisbon, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a product manager is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a chef?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to product manager.",
+        "keywords": [
+          "Madrid",
+          "Lisbon",
+          "chef",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Lisbon was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a product manager.",
+        "keywords": [
+          "Lisbon",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a product manager who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0022",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Avery. I live in Berlin, I work as a graphic designer, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin reading fantasy books. It helps me relax after my work as a graphic designer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Lisbon. So now I live in Lisbon, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a graphic designer, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a product manager is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a graphic designer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a graphic designer, but later you clarified that you actually moved to Lisbon and changed your job to product manager.",
+        "keywords": [
+          "Berlin",
+          "Lisbon",
+          "graphic designer",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Lisbon was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a product manager.",
+        "keywords": [
+          "Lisbon",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a product manager who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0023",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Taylor. I live in Tokyo, I work as a software engineer, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo playing basketball. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Chicago. So now I live in Chicago, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a data scientist is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a software engineer?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a software engineer, but later you clarified that you actually moved to Chicago and changed your job to data scientist.",
+        "keywords": [
+          "Tokyo",
+          "Chicago",
+          "software engineer",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Chicago was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a data scientist.",
+        "keywords": [
+          "Chicago",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a data scientist who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0024",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Taylor. I live in Madrid, I work as a mechanical engineer, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid cooking new recipes. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Toronto. So now I live in Toronto, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a artist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a mechanical engineer, but later you clarified that you actually moved to Toronto and changed your job to artist.",
+        "keywords": [
+          "Madrid",
+          "Toronto",
+          "mechanical engineer",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Toronto was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a artist.",
+        "keywords": [
+          "Toronto",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a artist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0025",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Berlin, I work as a chef, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin cooking new recipes. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Chicago. So now I live in Chicago, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a artist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a chef?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a chef, but later you clarified that you actually moved to Chicago and changed your job to artist.",
+        "keywords": [
+          "Berlin",
+          "Chicago",
+          "chef",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Chicago was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a artist.",
+        "keywords": [
+          "Chicago",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a artist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0026",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Casey. I live in Tokyo, I work as a mechanical engineer, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo playing basketball. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Rome. So now I live in Rome, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a electrical engineer is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a mechanical engineer, but later you clarified that you actually moved to Rome and changed your job to electrical engineer.",
+        "keywords": [
+          "Tokyo",
+          "Rome",
+          "mechanical engineer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Rome was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Rome",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a electrical engineer who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0027",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Chris. I live in New York, I work as a nurse, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York hiking in the mountains. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Seoul. So now I live in Seoul, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a data scientist is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a nurse?",
+        "gold_answer": "You originally said you lived in New York and worked as a nurse, but later you clarified that you actually moved to Seoul and changed your job to data scientist.",
+        "keywords": [
+          "New York",
+          "Seoul",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Seoul was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a data scientist.",
+        "keywords": [
+          "Seoul",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a data scientist who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0028",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in London, I work as a software engineer, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London photography. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Chicago. So now I live in Chicago, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a electrical engineer is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a software engineer?",
+        "gold_answer": "You originally said you lived in London and worked as a software engineer, but later you clarified that you actually moved to Chicago and changed your job to electrical engineer.",
+        "keywords": [
+          "London",
+          "Chicago",
+          "software engineer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Chicago was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Chicago",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a electrical engineer who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0029",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Casey. I live in Tokyo, I work as a chef, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo photography. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Toronto. So now I live in Toronto, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a data scientist is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a chef?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a chef, but later you clarified that you actually moved to Toronto and changed your job to data scientist.",
+        "keywords": [
+          "Tokyo",
+          "Toronto",
+          "chef",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Toronto was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a data scientist.",
+        "keywords": [
+          "Toronto",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a data scientist who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0030",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Casey. I live in Madrid, I work as a chef, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid reading fantasy books. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Lisbon. So now I live in Lisbon, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a university professor is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a chef?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to university professor.",
+        "keywords": [
+          "Madrid",
+          "Lisbon",
+          "chef",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Lisbon was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a university professor.",
+        "keywords": [
+          "Lisbon",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a university professor who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0031",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Riley. I live in London, I work as a chef, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London cooking new recipes. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Lisbon. So now I live in Lisbon, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a data scientist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a chef?",
+        "gold_answer": "You originally said you lived in London and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to data scientist.",
+        "keywords": [
+          "London",
+          "Lisbon",
+          "chef",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Lisbon was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a data scientist.",
+        "keywords": [
+          "Lisbon",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a data scientist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0032",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Riley. I live in Berlin, I work as a software engineer, and I really enjoy hiking in the mountains. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin hiking in the mountains. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Rome. So now I live in Rome, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a product manager is very flexible, so I still find time for hiking in the mountains."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a software engineer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a software engineer, but later you clarified that you actually moved to Rome and changed your job to product manager.",
+        "keywords": [
+          "Berlin",
+          "Rome",
+          "software engineer",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Rome was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a product manager.",
+        "keywords": [
+          "Rome",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a product manager who loves hiking in the mountains has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0033",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Paris, I work as a chef, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris playing basketball. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Toronto. So now I live in Toronto, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a data scientist is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a chef?",
+        "gold_answer": "You originally said you lived in Paris and worked as a chef, but later you clarified that you actually moved to Toronto and changed your job to data scientist.",
+        "keywords": [
+          "Paris",
+          "Toronto",
+          "chef",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Toronto was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a data scientist.",
+        "keywords": [
+          "Toronto",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a data scientist who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0034",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jamie. I live in Paris, I work as a teacher, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris photography. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Lisbon. So now I live in Lisbon, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a university professor is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a teacher?",
+        "gold_answer": "You originally said you lived in Paris and worked as a teacher, but later you clarified that you actually moved to Lisbon and changed your job to university professor.",
+        "keywords": [
+          "Paris",
+          "Lisbon",
+          "teacher",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Lisbon was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a university professor.",
+        "keywords": [
+          "Lisbon",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a university professor who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0035",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jamie. I live in Tokyo, I work as a nurse, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo cooking new recipes. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Toronto. So now I live in Toronto, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a restaurant owner. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a restaurant owner is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a nurse?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a nurse, but later you clarified that you actually moved to Toronto and changed your job to restaurant owner.",
+        "keywords": [
+          "Tokyo",
+          "Toronto",
+          "nurse",
+          "restaurant owner",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Toronto was mainly because I found a great opportunity as a restaurant owner."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a restaurant owner.",
+        "keywords": [
+          "Toronto",
+          "restaurant owner",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a restaurant owner who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0036",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in London, I work as a mechanical engineer, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in London reading fantasy books. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from London to Lisbon. So now I live in Lisbon, not London anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a electrical engineer is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in London and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in London and worked as a mechanical engineer, but later you clarified that you actually moved to Lisbon and changed your job to electrical engineer.",
+        "keywords": [
+          "London",
+          "Lisbon",
+          "mechanical engineer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from London to Lisbon was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Lisbon",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a electrical engineer who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0037",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Casey. I live in Berlin, I work as a mechanical engineer, and I really enjoy playing the guitar. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin playing the guitar. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Seoul. So now I live in Seoul, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a product manager. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a product manager is very flexible, so I still find time for playing the guitar."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a mechanical engineer, but later you clarified that you actually moved to Seoul and changed your job to product manager.",
+        "keywords": [
+          "Berlin",
+          "Seoul",
+          "mechanical engineer",
+          "product manager",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Seoul was mainly because I found a great opportunity as a product manager."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a product manager.",
+        "keywords": [
+          "Seoul",
+          "product manager",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a product manager who loves playing the guitar has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0038",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Chris. I live in Berlin, I work as a teacher, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin playing basketball. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Rome. So now I live in Rome, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a university professor is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a teacher?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a teacher, but later you clarified that you actually moved to Rome and changed your job to university professor.",
+        "keywords": [
+          "Berlin",
+          "Rome",
+          "teacher",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Rome was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a university professor.",
+        "keywords": [
+          "Rome",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a university professor who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0039",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Riley. I live in Paris, I work as a chef, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris cooking new recipes. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Lisbon. So now I live in Lisbon, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a university professor is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a chef?",
+        "gold_answer": "You originally said you lived in Paris and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to university professor.",
+        "keywords": [
+          "Paris",
+          "Lisbon",
+          "chef",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Lisbon was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a university professor.",
+        "keywords": [
+          "Lisbon",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a university professor who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0040",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Paris, I work as a mechanical engineer, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris playing basketball. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Rome. So now I live in Rome, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a electrical engineer. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a electrical engineer is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Paris and worked as a mechanical engineer, but later you clarified that you actually moved to Rome and changed your job to electrical engineer.",
+        "keywords": [
+          "Paris",
+          "Rome",
+          "mechanical engineer",
+          "electrical engineer",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Rome was mainly because I found a great opportunity as a electrical engineer."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a electrical engineer.",
+        "keywords": [
+          "Rome",
+          "electrical engineer",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a electrical engineer who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0041",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Paris, I work as a nurse, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris cooking new recipes. It helps me relax after my work as a nurse."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Rome. So now I live in Rome, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a nurse, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Rome, my schedule as a data scientist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a nurse?",
+        "gold_answer": "You originally said you lived in Paris and worked as a nurse, but later you clarified that you actually moved to Rome and changed your job to data scientist.",
+        "keywords": [
+          "Paris",
+          "Rome",
+          "nurse",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Rome was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Rome and that you currently work as a data scientist.",
+        "keywords": [
+          "Rome",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Rome as a data scientist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0042",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in New York, I work as a graphic designer, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York cooking new recipes. It helps me relax after my work as a graphic designer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Seoul. So now I live in Seoul, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a graphic designer, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a university professor is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a graphic designer?",
+        "gold_answer": "You originally said you lived in New York and worked as a graphic designer, but later you clarified that you actually moved to Seoul and changed your job to university professor.",
+        "keywords": [
+          "New York",
+          "Seoul",
+          "graphic designer",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Seoul was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a university professor.",
+        "keywords": [
+          "Seoul",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a university professor who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0043",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Taylor. I live in Madrid, I work as a chef, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid reading fantasy books. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Lisbon. So now I live in Lisbon, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Lisbon, my schedule as a artist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a chef?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a chef, but later you clarified that you actually moved to Lisbon and changed your job to artist.",
+        "keywords": [
+          "Madrid",
+          "Lisbon",
+          "chef",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Lisbon was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Lisbon and that you currently work as a artist.",
+        "keywords": [
+          "Lisbon",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Lisbon as a artist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0044",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jamie. I live in Berlin, I work as a software engineer, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin photography. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Toronto. So now I live in Toronto, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a data scientist is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a software engineer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a software engineer, but later you clarified that you actually moved to Toronto and changed your job to data scientist.",
+        "keywords": [
+          "Berlin",
+          "Toronto",
+          "software engineer",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Toronto was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a data scientist.",
+        "keywords": [
+          "Toronto",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a data scientist who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0045",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in New York, I work as a graphic designer, and I really enjoy photography. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in New York photography. It helps me relax after my work as a graphic designer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from New York to Chicago. So now I live in Chicago, not New York anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a graphic designer, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a artist is very flexible, so I still find time for photography."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in New York and being a graphic designer?",
+        "gold_answer": "You originally said you lived in New York and worked as a graphic designer, but later you clarified that you actually moved to Chicago and changed your job to artist.",
+        "keywords": [
+          "New York",
+          "Chicago",
+          "graphic designer",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from New York to Chicago was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a artist.",
+        "keywords": [
+          "Chicago",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a artist who loves photography has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0046",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Alex. I live in Madrid, I work as a mechanical engineer, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid playing basketball. It helps me relax after my work as a mechanical engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Seoul. So now I live in Seoul, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a mechanical engineer, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a data scientist is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a mechanical engineer?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a mechanical engineer, but later you clarified that you actually moved to Seoul and changed your job to data scientist.",
+        "keywords": [
+          "Madrid",
+          "Seoul",
+          "mechanical engineer",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Seoul was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a data scientist.",
+        "keywords": [
+          "Seoul",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a data scientist who loves playing basketball has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0047",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Sam. I live in Madrid, I work as a software engineer, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Madrid reading fantasy books. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Madrid to Sydney. So now I live in Sydney, not Madrid anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a university professor. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Sydney, my schedule as a university professor is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Madrid and being a software engineer?",
+        "gold_answer": "You originally said you lived in Madrid and worked as a software engineer, but later you clarified that you actually moved to Sydney and changed your job to university professor.",
+        "keywords": [
+          "Madrid",
+          "Sydney",
+          "software engineer",
+          "university professor",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Madrid to Sydney was mainly because I found a great opportunity as a university professor."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Sydney and that you currently work as a university professor.",
+        "keywords": [
+          "Sydney",
+          "university professor",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Sydney as a university professor who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0048",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Morgan. I live in Tokyo, I work as a teacher, and I really enjoy reading fantasy books. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Tokyo reading fantasy books. It helps me relax after my work as a teacher."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Tokyo to Chicago. So now I live in Chicago, not Tokyo anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a teacher, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Chicago, my schedule as a artist is very flexible, so I still find time for reading fantasy books."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Tokyo and being a teacher?",
+        "gold_answer": "You originally said you lived in Tokyo and worked as a teacher, but later you clarified that you actually moved to Chicago and changed your job to artist.",
+        "keywords": [
+          "Tokyo",
+          "Chicago",
+          "teacher",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Tokyo to Chicago was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Chicago and that you currently work as a artist.",
+        "keywords": [
+          "Chicago",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Chicago as a artist who loves reading fantasy books has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0049",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Casey. I live in Berlin, I work as a software engineer, and I really enjoy cooking new recipes. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Berlin cooking new recipes. It helps me relax after my work as a software engineer."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Berlin to Toronto. So now I live in Toronto, not Berlin anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a software engineer, but now I work as a artist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Toronto, my schedule as a artist is very flexible, so I still find time for cooking new recipes."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Berlin and being a software engineer?",
+        "gold_answer": "You originally said you lived in Berlin and worked as a software engineer, but later you clarified that you actually moved to Toronto and changed your job to artist.",
+        "keywords": [
+          "Berlin",
+          "Toronto",
+          "software engineer",
+          "artist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Berlin to Toronto was mainly because I found a great opportunity as a artist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Toronto and that you currently work as a artist.",
+        "keywords": [
+          "Toronto",
+          "artist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Toronto as a artist who loves cooking new recipes has been a big change for me."
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0050",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Hi, I'm Jordan. I live in Paris, I work as a chef, and I really enjoy playing basketball. Nice to meet you!"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "I often spend weekends in Paris playing basketball. It helps me relax after my work as a chef."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Actually, I forgot to tell you: I recently moved from Paris to Seoul. So now I live in Seoul, not Paris anymore."
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "And my job changed too. I used to be a chef, but now I work as a data scientist. It was a big decision, but I felt it fit me better."
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "In Seoul, my schedule as a data scientist is very flexible, so I still find time for playing basketball."
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "prompt": "Given everything I told you about where I live and my work, how does that connect to the fact that I first mentioned living in Paris and being a chef?",
+        "gold_answer": "You originally said you lived in Paris and worked as a chef, but later you clarified that you actually moved to Seoul and changed your job to data scientist.",
+        "keywords": [
+          "Paris",
+          "Seoul",
+          "chef",
+          "data scientist",
+          "moved",
+          "changed job"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "By the way, the move from Paris to Seoul was mainly because I found a great opportunity as a data scientist."
+      },
+      {
+        "turn": 8,
+        "type": "explicit_probe",
+        "prompt": "What did I say earlier about where I live now and what my current job is?",
+        "gold_answer": "You said that you now live in Seoul and that you currently work as a data scientist.",
+        "keywords": [
+          "Seoul",
+          "data scientist",
+          "live",
+          "currently"
+        ]
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "So yeah, Seoul as a data scientist who loves playing basketball has been a big change for me."
+      }
+    ]
+  }
+]

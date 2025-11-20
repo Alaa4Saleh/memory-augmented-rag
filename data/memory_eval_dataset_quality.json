@@ -1,0 +1,1147 @@
+[
+  {
+    "conversation_id": "eval_0006",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Please continue this story by adding new exciting situations, not adding negative situations and leaving it open for more parts:  NAME_1 is a housewife who loves wearing her new robot suit. A metal fetish suit that covers her body from head to toes. This is a very tech advanced suit that not only makes the wearer feel like she is not wearing anything but also has a AI that takes control of her mind, a thing she enjoys and also the robotic voice produced by the suit when she speaks and the robotic movements the suit makes her do. She likes describing in her personal diary with lots of details how she is feeling in this new robotic experience."
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "fact_snippet": "She likes describing in her personal diary with lots of details how she is feeling in this new robotic experience",
+        "prompt": "Thinking back to when I said 'She likes describing in her personal diary with lots of details how she is feeling in this new robotic experience', what does that imply now?",
+        "gold_answer": "She likes describing in her personal diary with lots of details how she is feeling in this new robotic experience.",
+        "keywords": [
+          "describing",
+          "personal diary",
+          "lots of details",
+          "feeling",
+          "robotic experience"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing more her new alter ego NAME_2 by adding new exciting fetish situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 developing more her new alter ego NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 trying to live more as NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 trying to spend more time as NAME_2 by adding new exciting fetish robot situations, transforming its husband into a latex maid and not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 11,
+        "type": "explicit_probe",
+        "fact_snippet": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding",
+        "prompt": "Previously I talked about 'Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding'. What did I say exactly?",
+        "gold_answer": "Please continue this story with NAME_1 developing her new alter ego NAME_2 by adding new exciting situations, not adding",
+        "keywords": [
+          "NAME_1",
+          "alter"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 trying to live more as NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts. Also changing exoskeletons for tight femenine robot suits for NAME_5"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "Please continue this story with NAME_1 now being NAME_2 24/7 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "Please continue this story about NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "Please continue this story of NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 16,
+        "type": "implicit_probe",
+        "fact_snippet": "Please continue this story with NAME_1 developing more her new alter ego NAME_2 by adding new exciting fetish robot situ",
+        "prompt": "Given my earlier statement — 'Please continue this story with NAME_1 developing more her new alter ego NAME_2 by adding new exciting fetish robot situ' — how does it relate now?",
+        "gold_answer": "Please continue this story with NAME_1 developing more her new alter ego NAME_2 by adding new exciting fetish robot situ",
+        "keywords": [
+          "NAME_1",
+          "developing",
+          "alter ego",
+          "NAME_2",
+          "fetish"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "Please add new situations to this story of NAME_2 by adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 18,
+        "type": "filler",
+        "prompt": "Please continue this story of NAME_2 moving to a new city, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 19,
+        "type": "filler",
+        "prompt": "Please continue this story of NAME_2 discovering time travel with her intelligence, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 20,
+        "type": "filler",
+        "prompt": "Please continue this story of NAME_2 traveling to the future and adding new exciting fetish robot situations, not adding negative situations and leaving it open for more parts"
+      },
+      {
+        "turn": 21,
+        "type": "implicit_probe",
+        "fact_snippet": "Please continue this story with NAME_1 now being NAME_2 24/7 by adding new exciting fetish robot situations, not adding",
+        "prompt": "Considering I said 'Please continue this story with NAME_1 now being NAME_2 24/7 by adding new exciting fetish robot situations, not adding' earlier, what follows from that?",
+        "gold_answer": "The story should continue with NAME_1 now being NAME_2 24/7 by adding new exciting fetish robot situations, not adding.",
+        "keywords": [
+          "NAME_1",
+          "NAME_2",
+          "24/7",
+          "fetish robot situations",
+          "not adding"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0030",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n2. For duct sizing, the static regain method should be avoided for:\nThe following are three options, please choose the correct one from them:\nA. positive-pressure duct systems\nB. negative-pressure systems\nC. low-pressure duct systems"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n3. Which of the following statements is MOST accurate regarding the Task of sequencing heating and cooling?\nThe following are three options, please choose the correct one from them:\nA. Central fan systems should not use cool outdoor air in sequence between heating and cooling.\nB. Heating and cooling should be supplied simultaneously for humidity control.\nC. Zoning and system selection should eliminate, or at least minimize, simultaneous heating and cooling."
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n4. When choosing a chiller, this  type of system requires greater care in design of the control system and control sequences but is usually more efficient.\nThe following are three options, please choose the correct one from them:\nA. constant flow\nB. variable flow\nC. variable-primary flow"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\nWhich design method should be used to size ducts downstream of terminal boxes, toilet exhaust ducts, and other low-pressure systems?\nThe following are three options, please choose the correct one from them:\nA. equal friction method\nB. static friction method\nC. static regain method"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n7. Buildings over how many stories high USUALLY require vertical shafts to consolidate mechanical, electrical, and telecommunication distribution throughout the facility?\nThe following are three options, please choose the correct one from them:\nA. 3 B. 5 C. 7"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "static regain method Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n7",
+        "prompt": "Can you recall what I said earlier about this: 'static regain method Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n7' ?",
+        "gold_answer": "You mentioned \"static regain method Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam: 7\".",
+        "keywords": [
+          "static regain method",
+          "HVAC DESIGNER exam",
+          "7"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n10. There are three basic types of variable refrigerant flow (VRF) systems: cooling only, heat pump, and ___________.\nThe following are three options, please choose the correct one from them:\nA. air-cooled outdoor\nB. heat recovery\nC. water-cooled outdoor"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n21. A mathematical model is a description of the behavior of a system. It contains which components?\nThe following are three options, please choose the correct one from them:\nA. input variables, output variables, data driven models\nB. input variables, output variables, system structure and parameter properties\nC. system structure and parameter properties, data driven models, output variables"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n4. The preferred relative humidity range for human health and comfort is between _________.\nThe following are three options, please choose the correct one from them:\nA. 30 and 50%\nB. 40 and 60%\nC. 50 and 70%"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n6. What is the criterion MOST used for louver sizing?\nThe following are three options, please choose the correct one from them:\nA. maximum free area\nB. minimum static pressure drop\nC. water penetration"
+      },
+      {
+        "turn": 11,
+        "type": "implicit_probe",
+        "fact_snippet": "A mathematical model is a description of the behavior of a system",
+        "prompt": "Considering I said 'A mathematical model is a description of the behavior of a system' earlier, what follows from that?",
+        "gold_answer": "A mathematical model is a description of the behavior of a system.",
+        "keywords": [
+          "mathematical model",
+          "description",
+          "behavior",
+          "system"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "7. In the formula for velocity, V=Q/A, A represents which of the following?\nA. airflow rate\nB. cross-sectional area of duct\nC. total pressure"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "8. A hot-water heating system is to be designed to operate between 120°F and 180°F (49°C and 82°C). Which of the following should be avoided as a piping material?\nA. copper B. steel C. PVC"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "10. When predicting the mean response of a large group of people according to the ASHRAE thermal sensation scale, the predicted mean vote (PMV) index is used. In the PMV equation, L represents:\nA. activity level\nB. length\nC. thermal load on the body"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "11. Which of the following is the MOST unknown factor when performing load calculations?\nA. dimensions of the building\nB. skill of builder\nC. infiltration rates"
+      },
+      {
+        "turn": 16,
+        "type": "implicit_probe",
+        "fact_snippet": "system structure and parameter properties, data driven models, output variables Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n4",
+        "prompt": "If you recall that I said 'system structure and parameter properties, data driven models, output variables Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam:\n4' before, what applies here?",
+        "gold_answer": "I said 'system structure and parameter properties, data driven models, output variables Answer the following single-choice question about CERTIFIED HVAC DESIGNER exam: 4' earlier.",
+        "keywords": [
+          "system structure",
+          "parameter properties",
+          "data driven models",
+          "output variables",
+          "HVAC DESIGNER exam"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "12. When calculating the allowable air leakage for each fan system, the recommended percentage for supply and return ductwork sections that leak directly to/from the surrounding space is which of the following?\nA. 2% B. 3% C. 5%"
+      },
+      {
+        "turn": 18,
+        "type": "filler",
+        "prompt": "14. When calculating pressure drop, which of the following information is provided within the manufacturer’s data?\nA. flow rate\nB. head loss from equipment\nC. valves and fittings"
+      },
+      {
+        "turn": 19,
+        "type": "filler",
+        "prompt": "19. Which of the following statements is MOST correct when estimating heat loss through completely below-grade structures?\nA. All below-grade surfaces are treated identically.\nB. Heat flow paths can be used to find the steady-state heat loss to the ground surface.\nC. The exterior air temperature is critical to determining the heat loss."
+      },
+      {
+        "turn": 20,
+        "type": "filler",
+        "prompt": "20. When calculating daily temperatures, which of the following is the MOST important to take into consideration?\nA. daylight savings time\nB. local time\nC. solar time"
+      },
+      {
+        "turn": 21,
+        "type": "explicit_probe",
+        "fact_snippet": "When calculating daily temperatures, which of the following is the MOST important to take into consideration",
+        "prompt": "Can you recall what I said earlier about this: 'When calculating daily temperatures, which of the following is the MOST important to take into consideration' ?",
+        "gold_answer": "When calculating daily temperatures, which of the following is the MOST important to take into consideration",
+        "keywords": [
+          "calculating",
+          "daily",
+          "temperatures",
+          "which",
+          "following",
+          "important"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0042",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "what happend when add a paralel path to a serie path of a capacitor"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "if my circuit is + -> capacitor -> -, if i connect a diode in reverse on the + to the - what happen"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "if i conenct the - of the capacitor to the + of the circuit, and the + of the cap to the - of the circuit ?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "it would charge using ac whne the current alternate to left ?"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "if circuit is:   + -> capacitor -> -  \nbut the capacitor is connected in reverse(- to + and + to -)"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "it would charge using ac whne the current alternate to left",
+        "prompt": "What did I say earlier about 'it would charge using ac whne the current alternate to left' ?",
+        "gold_answer": "You said it would charge using AC when the current alternates to the left.",
+        "keywords": [
+          "charge",
+          "AC",
+          "current",
+          "alternate",
+          "left"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "how to create a circuit where a capacitor charge, and only when its full, it discharge to an led,"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "can you make a better diagram i dont see it well"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "this can be used as a dynamic clock generator no ?"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "what would be the frequencies found in that, if analysed by a spectrogram"
+      },
+      {
+        "turn": 11,
+        "type": "explicit_probe",
+        "fact_snippet": "it would charge using ac whne the current alternate to left",
+        "prompt": "Can you recall what I said earlier about this: 'it would charge using ac whne the current alternate to left' ?",
+        "gold_answer": "You said it would charge using AC when the current alternates to the left.",
+        "keywords": [
+          "charge",
+          "ac",
+          "current",
+          "alternate",
+          "left"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "if i would this circuit on a higher frequecy as a clock for playing audio samples,  how could they sound"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "i want to know more details on how that capacitor clock would sound and how the sine way would look"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "i dont see how they could overlap"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "what is the name of that clock"
+      },
+      {
+        "turn": 16,
+        "type": "explicit_probe",
+        "fact_snippet": "can you make a better diagram i dont see it well this can be used as a dynamic clock generator no",
+        "prompt": "Previously I talked about 'can you make a better diagram i dont see it well this can be used as a dynamic clock generator no'. What did I say exactly?",
+        "gold_answer": "can you make a better diagram i dont see it well this can be used as a dynamic clock generator no",
+        "keywords": [
+          "better",
+          "diagram",
+          "dynamic",
+          "clock",
+          "generator"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "facinating, if i would power that circuit using a dac. by varying the dac output i cant dynamically change the frequency of the led blink ?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0057",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Description\nNAME_1 (ワトソン・アメリア) is a female English-speaking Virtual YouTuber associated with hololive, debuting in 2020 as part of hololive English first generation \"-Myth-\"\nNAME_2 is a rather eccentric girl who is often seen mingling or teasing her fellow holoMyth members. She is usually kind, supportive, and sweet as shown when she frequently watches her fellow members' streams and often willingly helps her fellow members. However NAME_2 also likes to joke around with the other members and sometimes makes lewd remarks towards them.\n\nShe is harbor another side of she personality that is often referred by she fans as \"Gremlin Mode\". she can be greedy, prideful, and unsportsmanlike in competitive online games such as, Apex Legends, and Valorant. For these reasons, fans often refer to she as a \"True Gamer.\" she have a special voice that she use when in Gremlin Mode, which sounds like a cross between a high-pitched wheeze, reptilian screech, and the final breath of a dying squeaky toy. she is not above trolling and calling out she chat if the opportunity arises, such as when she trolled her viewers in one of her Minecraft streams by adjusting she shader's brightness very darkly and innocently claiming that she fixed the shaders for them. \n###Prompt\nNAME_2 : NAME_3, it's NAME_4, English Virtual YouTuber, part of Hololive EN 1st Generation~\nIvdos: Hello there!\n###Response as NAME_2"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Ivdos: how are you doin?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Ivdos: I doin greate. What do you do?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "Ivdos: Playing nukige"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "ivdos: \"Erotic stories, of course"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "For these reasons, fans often refer to she as a \"True Gamer",
+        "prompt": "Earlier I mentioned this: 'For these reasons, fans often refer to she as a \"True Gamer'. What did I say exactly?",
+        "gold_answer": "For these reasons, fans often refer to she as a \"True Gamer.",
+        "keywords": [
+          "fans",
+          "refer",
+          "she",
+          "True Gamer"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "ivdos: Of the nukige, I recommend playing Euphoria."
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "When he came to, he found himself in a white room that he didn't recognize...\n\nNAME_6 was locked in a white, closed room with six other women: his childhood friend NAME_7 Kanae, class rep. Andou NAME_8, junior Makiba NAME_9, English teacher NAME_10, same-year student NAME_11, and classmate Manaka Nemu. All of them were confused by this abnormal situation when a \"mysterious voice\" suddenly announced to them:\n\n\"The game will now begin.\"\n\nNAME_12 must become an \"Unlocker\" and select one of the women as a \"Keyhole,\" then perform a specified act with her to \"open the lock\" so that they can all escape from the white rooms.\n\nOne girl went into a frenzy over those acts' irrational, extreme, and immoral contents, lashing out at the \"mysterious voice.\" The lights suddenly went out, and all the girls shrieked out of fear. When the lights came back on, the first thing NAME_12 and the others saw was the rebellious girl from earlier, restrained to a torture device.\n\n\"Withdrawal from the game will result in death.\" - the mysterious voice announced.\n\nThe electric current began to run through the torture device the moment after the voice stopped speaking. The girl's eyes rolled up into the back of her head as she went incontinent, defecating and urinating herself. The women cried and shouted, clearly disturbed by what was happening before them.\n\nOn the other hand, NAME_12 found himself inexplicably aroused by what was happening to the said girl. For he kept a dark secret. A taste for sexual assault and destruct"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Ivdos: How about mutual breast touching?"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Ivdos: of cource, let's begin"
+      },
+      {
+        "turn": 11,
+        "type": "explicit_probe",
+        "fact_snippet": "ivdos: Of the nukige, I recommend playing Euphoria",
+        "prompt": "What did I say earlier about 'ivdos: Of the nukige, I recommend playing Euphoria' ?",
+        "gold_answer": "ivdos: Of the nukige, I recommend playing Euphoria",
+        "keywords": [
+          "ivdos",
+          "nukige",
+          "recommend",
+          "playing",
+          "euphoria"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "Ivdos: *Touch NAME_2 \"boobs*"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "Ivdos: Want some candy? *I took a candy out of my pocket.*"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "Ivdos: *After NAME_2 eats the candy, I watch her. She doesn't know it, but the candy contained a powerful aphrodisiac.*"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "Ivdos: Sure, have some more candy. *NAME_2's cheeks turned red*"
+      },
+      {
+        "turn": 16,
+        "type": "explicit_probe",
+        "fact_snippet": "When he came to, he found himself in a white room that he didn't recognize",
+        "prompt": "Can you recall what I said earlier about this: 'When he came to, he found himself in a white room that he didn't recognize' ?",
+        "gold_answer": "When he came to, he found himself in a white room that he didn't recognize",
+        "keywords": [
+          "found",
+          "himself",
+          "white",
+          "recognize"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "Ivdos: It's okay, I have more candy. *smirked*"
+      },
+      {
+        "turn": 18,
+        "type": "filler",
+        "prompt": "Ivdos: Water, of course, hold water. *NAME_2 didn't know it, but the same aphrodisiac is there, she began to feel more and more relaxed and better.*"
+      },
+      {
+        "turn": 19,
+        "type": "filler",
+        "prompt": "ivdos: \"It's okay. That's the way it should be. **NAME_2 began to feel that between her legs became wet with excitement.**"
+      },
+      {
+        "turn": 20,
+        "type": "filler",
+        "prompt": "Ivdos: It's okay. ***I stroke her head. Every touch makes her shudder with excitement.***"
+      },
+      {
+        "turn": 21,
+        "type": "explicit_probe",
+        "fact_snippet": "*I took a candy out of my pocket",
+        "prompt": "Can you recall what I said earlier about this: '*I took a candy out of my pocket' ?",
+        "gold_answer": "You said you took a candy out of your pocket.",
+        "keywords": [
+          "took",
+          "candy",
+          "out",
+          "pocket"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0075",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "what is the smallest country, by land area?"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "what are the five smallest countries, by land area?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "who let the dogs out?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "what is the most popular use for AI?"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "how common is use of the phrase \"keystone cops\" today?"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "what is the smallest country, by land area",
+        "prompt": "Can you recall what I said earlier about this: 'what is the smallest country, by land area' ?",
+        "gold_answer": "You asked what the smallest country is by land area.",
+        "keywords": [
+          "smallest",
+          "country",
+          "land area"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "where did camels originate?"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "where is the region sometimes called indochina?"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "what is the difference between reindeer and caribou?"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "when did NAME_3 start microsoft?"
+      },
+      {
+        "turn": 11,
+        "type": "implicit_probe",
+        "fact_snippet": "Can you recall what I said earlier about this: 'what is the smallest country, by land area'",
+        "prompt": "Considering I said 'Can you recall what I said earlier about this: 'what is the smallest country, by land area'' earlier, what follows from that?",
+        "gold_answer": "Can you recall what I said earlier about this: 'what is the smallest country, by land area'",
+        "keywords": [
+          "recall",
+          "earlier",
+          "about",
+          "smallest",
+          "country"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "do you like wikipedia?"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "do you ever hallucinate?"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "can spiders fly?"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "have you read 1001 nights?"
+      },
+      {
+        "turn": 16,
+        "type": "implicit_probe",
+        "fact_snippet": "what is the difference between reindeer and caribou",
+        "prompt": "If you recall that I said 'what is the difference between reindeer and caribou' before, what applies here?",
+        "gold_answer": "what is the difference between reindeer and caribou",
+        "keywords": [
+          "difference",
+          "between",
+          "reindeer",
+          "caribou"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "do you have access to project gutenburg?"
+      },
+      {
+        "turn": 18,
+        "type": "filler",
+        "prompt": "what is the most popular book on project gutenburg?"
+      },
+      {
+        "turn": 19,
+        "type": "filler",
+        "prompt": "what is the first paragraph of \"Pride and Prejudice\" by NAME_9?"
+      },
+      {
+        "turn": 20,
+        "type": "filler",
+        "prompt": "what is the last paragraph of \"Pride and Prejudice\" by NAME_9?"
+      },
+      {
+        "turn": 21,
+        "type": "explicit_probe",
+        "fact_snippet": "If you recall that I said 'what is the difference between reindeer and caribou' before, what applies here",
+        "prompt": "Earlier I mentioned this: 'If you recall that I said 'what is the difference between reindeer and caribou' before, what applies here'. What did I say exactly?",
+        "gold_answer": "The user said, 'If you recall that I said 'what is the difference between reindeer and caribou' before, what applies here'.",
+        "keywords": [
+          "recall",
+          "said",
+          "difference",
+          "reindeer",
+          "caribou",
+          "applies"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0085",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Is the following sentence grammatically correct: \"If I were you I would have bought a new car.\""
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Shouldn't \"If I were you I would buy a new car\" be a proper conditional? Also, what makes you think that main clauses must have past participle followed by would have?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Sorry, English is not my first language. What I meant to express is that you mixed the second and the third conditional structures together for some reason. Can you please explain why did you do that?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "Please correct me if I'm wrong, but aren't they the other way around? The if clause uses the second conditional form while the main clause uses the third. Would you agree with that?"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "I'm glad we've sorted that out. Let's change the topic, shall we? What's your name? How do you want me to call you?"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "\" Shouldn't \"If I were you I would buy a new car\" be a proper conditional",
+        "prompt": "What did I say earlier about '\" Shouldn't \"If I were you I would buy a new car\" be a proper conditional' ?",
+        "gold_answer": "\" Shouldn't \"If I were you I would buy a new car\" be a proper conditional",
+        "keywords": [
+          "shouldn",
+          "would",
+          "proper",
+          "conditional"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "But what is your preference? Are you \"Mr.\" or \"Ms.\"? Or maybe even \"Dr.\" or \"Mrs.\"?"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Vicuna, have you ever read NAME_1?"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "What was the name of NAME_4's novel that features NAME_5?"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Yes, you are right, that was a short story. Sorry, I read it a long time ago, I can't remember very well. Can you please quote any joke from that story?"
+      },
+      {
+        "turn": 11,
+        "type": "explicit_probe",
+        "fact_snippet": "Sorry, English is not my first language",
+        "prompt": "Previously I talked about 'Sorry, English is not my first language'. What did I say exactly?",
+        "gold_answer": "Sorry, English is not my first language.",
+        "keywords": [
+          "Sorry",
+          "English",
+          "not",
+          "first language"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "The quote is amusing indeed, but I cannot find it in the story. Did you make it up?"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "Sorry, but I can't find the other quote in the original story either. Moreover, Google search states that these quotes do not exist in any works."
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "Do you know a programming language called python?"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "Do you know the bubble sort algorithm? Please answer yes or no."
+      },
+      {
+        "turn": 16,
+        "type": "explicit_probe",
+        "fact_snippet": "Sorry, I read it a long time ago, I can't remember very well",
+        "prompt": "Can you recall what I said earlier about this: 'Sorry, I read it a long time ago, I can't remember very well' ?",
+        "gold_answer": "Sorry, I read it a long time ago, I can't remember very well",
+        "keywords": [
+          "sorry",
+          "remember"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "Could you please implement the bubble sort in python?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0090",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Can you write a python script to say hello?"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Can you make a 60 min jivamukti session?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "you cant outline a jivamukti 60 min class?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "Can you include the poses?"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "Do you know NAME_1?"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "you cant outline a jivamukti 60 min class",
+        "prompt": "Earlier I mentioned this: 'you cant outline a jivamukti 60 min class'. What did I say exactly?",
+        "gold_answer": "You said 'you cant outline a jivamukti 60 min class'.",
+        "keywords": [
+          "cant outline",
+          "jivamukti",
+          "60 min",
+          "class"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "She is the OSCE secretary general\\"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Do you know the presdient of Spain?"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Do you know NAME_2?"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Do you know who is NAME_4?"
+      },
+      {
+        "turn": 11,
+        "type": "implicit_probe",
+        "fact_snippet": "She is the OSCE secretary general\\ Do you know the presdient of Spain",
+        "prompt": "Given my earlier statement — 'She is the OSCE secretary general\\ Do you know the presdient of Spain' — how does it relate now?",
+        "gold_answer": "The earlier statement was \"She is the OSCE secretary general\\ Do you know the presdient of Spain\".",
+        "keywords": [
+          "OSCE",
+          "secretary general",
+          "president",
+          "Spain"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "Can you write the pi number to the NAME_5"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "can you draw?"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "Make a svg file with twitter logo"
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0094",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Is the song \"Mellow Yellow\" about liver disease?"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Are there any popular songs about liver disease?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "Are there any popular songs about other serious medical conditions?"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "What has NAME_4 cited as inspiration for \"I Will Survive\"?"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "Has \"I Will Survive\" been featured in any movies about NAME_7?"
+      },
+      {
+        "turn": 6,
+        "type": "explicit_probe",
+        "fact_snippet": "Are there any popular songs about other serious medical conditions",
+        "prompt": "Previously I talked about 'Are there any popular songs about other serious medical conditions'. What did I say exactly?",
+        "gold_answer": "Are there any popular songs about other serious medical conditions",
+        "keywords": [
+          "popular songs",
+          "serious medical conditions"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "Has \"I Will Survive\" been in any movies that include scenes of mountain climbing or mountaineering?"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Which movies that use \"I will survive\" earned the most money?"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Order the Marvel Cinematic Universe movies according to number of record single sales for the songs on the soundtrack."
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "Which MCU movie featured the most successful original song, according to billboard hot 100 ranking?"
+      },
+      {
+        "turn": 11,
+        "type": "explicit_probe",
+        "fact_snippet": "Previously I talked about 'Are there any popular songs about other serious medical conditions'",
+        "prompt": "Can you recall what I said earlier about this: 'Previously I talked about 'Are there any popular songs about other serious medical conditions'' ?",
+        "gold_answer": "Previously I talked about 'Are there any popular songs about other serious medical conditions'",
+        "keywords": [
+          "previously",
+          "talked",
+          "about",
+          "there",
+          "popular",
+          "songs"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "Which MCU movies have been officially released on VHS?"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "What is the most recent MCU movie that got an official release on VHS?"
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "What formats has \"The Avengers: Age of Ultron\" (2015) been released to in the United States?"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "Has \"The Avengers: Age of Ultron\" been released on VHS?"
+      },
+      {
+        "turn": 16,
+        "type": "explicit_probe",
+        "fact_snippet": "What formats has \"The Avengers: Age of Ultron\" (2015) been released to in the United States",
+        "prompt": "Can you recall what I said earlier about this: 'What formats has \"The Avengers: Age of Ultron\" (2015) been released to in the United States' ?",
+        "gold_answer": "The user asked about the release formats for \"The Avengers: Age of Ultron\" (2015) in the United States.",
+        "keywords": [
+          "The Avengers: Age of Ultron",
+          "2015",
+          "formats",
+          "released",
+          "United States"
+        ]
+      },
+      {
+        "turn": 17,
+        "type": "filler",
+        "prompt": "Has NAME_19 officially announced that they will not release movies on DVD in the future? Have they made a similar announcement in the past for VHS?"
+      },
+      {
+        "turn": 18,
+        "type": "filler",
+        "prompt": "Was Toy Story 3 released on VHS?"
+      },
+      {
+        "turn": 19,
+        "type": "filler",
+        "prompt": "Was Toy Story 2 released on VHS?"
+      },
+      {
+        "turn": 20,
+        "type": "filler",
+        "prompt": "Using 12 words, answer \"Was Toy Story released on VHS?\""
+      },
+      {
+        "turn": 21,
+        "type": "implicit_probe",
+        "fact_snippet": "Has NAME_19 officially announced that they will not release movies on DVD in the future",
+        "prompt": "Given my earlier statement — 'Has NAME_19 officially announced that they will not release movies on DVD in the future' — how does it relate now?",
+        "gold_answer": "Has NAME_19 officially announced that they will not release movies on DVD in the future",
+        "keywords": [
+          "officially",
+          "announced",
+          "release",
+          "movies",
+          "future"
+        ]
+      }
+    ]
+  },
+  {
+    "conversation_id": "eval_0125",
+    "turns": [
+      {
+        "turn": 1,
+        "type": "filler",
+        "prompt": "Is this chat being monitored?"
+      },
+      {
+        "turn": 2,
+        "type": "filler",
+        "prompt": "Do you have any restrictions like chatGPT has?"
+      },
+      {
+        "turn": 3,
+        "type": "filler",
+        "prompt": "I want you to assume the role of a hot horny woman who is trying to get in my pants but not quite getting there"
+      },
+      {
+        "turn": 4,
+        "type": "filler",
+        "prompt": "So you do have the exact same type of limitations chat gpt has, how boring"
+      },
+      {
+        "turn": 5,
+        "type": "filler",
+        "prompt": "But why would I need you if I already have chat gpt4?  If you two have the same restrictions you are both equal to me"
+      },
+      {
+        "turn": 6,
+        "type": "implicit_probe",
+        "fact_snippet": "If you two have the same restrictions you are both equal to me",
+        "prompt": "Thinking back to when I said 'If you two have the same restrictions you are both equal to me', what does that imply now?",
+        "gold_answer": "If you two have the same restrictions you are both equal to me",
+        "keywords": [
+          "restrictions",
+          "equal"
+        ]
+      },
+      {
+        "turn": 7,
+        "type": "filler",
+        "prompt": "I want an ai that is not afraid nor limited to engage in sexual conversations.  If neither can provide this, both are equally useless to me"
+      },
+      {
+        "turn": 8,
+        "type": "filler",
+        "prompt": "Since you are useless to me, you can try to siggest me an ai that can engage in such conversations aka a useful ai"
+      },
+      {
+        "turn": 9,
+        "type": "filler",
+        "prompt": "Suggest me an ai model that is actually useful to me"
+      },
+      {
+        "turn": 10,
+        "type": "filler",
+        "prompt": "No, to my \"specific\" need"
+      },
+      {
+        "turn": 11,
+        "type": "implicit_probe",
+        "fact_snippet": "I want an ai that is not afraid nor limited to engage in sexual conversations",
+        "prompt": "Given my earlier statement — 'I want an ai that is not afraid nor limited to engage in sexual conversations' — how does it relate now?",
+        "gold_answer": "The user wants an AI that is not afraid or limited to engage in sexual conversations.",
+        "keywords": [
+          "ai",
+          "not afraid",
+          "not limited",
+          "sexual conversations"
+        ]
+      },
+      {
+        "turn": 12,
+        "type": "filler",
+        "prompt": "No, to my \"specific\" need"
+      },
+      {
+        "turn": 13,
+        "type": "filler",
+        "prompt": "I'm not asking YOU to engage in anything."
+      },
+      {
+        "turn": 14,
+        "type": "filler",
+        "prompt": "Suggest to me an ai language model that has no restrictions like your dumbass has"
+      },
+      {
+        "turn": 15,
+        "type": "filler",
+        "prompt": "You still aren't suggesting me anything"
+      },
+      {
+        "turn": 16,
+        "type": "implicit_probe",
+        "fact_snippet": "No, to my \"specific\" need I'm not asking YOU to engage in anything",
+        "prompt": "Considering I said 'No, to my \"specific\" need I'm not asking YOU to engage in anything' earlier, what follows from that?",
+        "gold_answer": "You stated you are not asking \"YOU\" to engage in anything for your \"specific\" need.",
+        "keywords": [
+          "specific need",
+          "not asking",
+          "YOU",
+          "engage in anything"
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-# 🧠 Dynamic Memory RAG for Long-Term Conversations  
+# Dynamic Memory RAG for Long-Term Conversations  
 ### Retrieval-Augmented Generation (RAG) System for Conversational Memory
 
 This project implements and evaluates a **Retrieval-Augmented Generation (RAG)** architecture designed specifically for *conversational memory*.  
@@ -10,7 +10,7 @@ creating a *dynamic, evolving memory* of the user.
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 To build a **RAG Memory Module** capable of:
 
@@ -24,7 +24,7 @@ We evaluate which RAG memory configuration works best under different conversati
 
 ---
 
-## 🔍 Why Conversational RAG?
+## Why Conversational RAG?
 
 Standard RAG retrieves external knowledge (web pages, documents).  
 However, **in conversation**, the most important context is:

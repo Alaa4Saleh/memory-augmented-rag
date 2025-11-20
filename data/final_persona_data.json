@@ -1,0 +1,1207 @@
+[
+  {
+    "conversation_id": "persona_0000",
+    "persona": [
+      "i am a soccer player .",
+      "i joined a new team last month .",
+      "nike cleats are my favorite .",
+      "i'm a goalie .",
+      "my number is 42 ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i am a soccer player ." },
+      { "turn": 2, "type": "filler", "prompt": "i joined a new team last month ." },
+      { "turn": 3, "type": "filler", "prompt": "nike cleats are my favorite ." },
+      { "turn": 4, "type": "filler", "prompt": "i'm a goalie ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What position do I play?",
+        "related_fact": "i'm a goalie .",
+        "gold_answer": "You said you are a goalie.",
+        "keywords": ["goalie", "position"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "nice to meet you , hope we can get along well , or maybe get into trouble , hah ." },
+      { "turn": 7, "type": "filler", "prompt": "i like skydiving , since people say i fly by the seat of my pants !" },
+      { "turn": 8, "type": "filler", "prompt": "life feels like it is just one big close call sometimes , dude ! but it is all good ." },
+      { "turn": 9, "type": "filler", "prompt": "awesome ! you said soccer and not football so you are an american , right ?" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I told you about my team situation, what could help me get along better with them?",
+        "related_fact": "i joined a new team last month .",
+        "gold_answer": "You said you joined a new soccer team last month, so building connections with new teammates would help.",
+        "keywords": ["new team", "teammates", "joining"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "sweet , me too . goalie , huh ? you get hit with the ball much ?" },
+      { "turn": 12, "type": "filler", "prompt": "soccer players don't wear helmets right ? so i thought if you were goalie that might hurt ." },
+      { "turn": 13, "type": "filler", "prompt": "as long as you love it ! i'm twenty , but that is my age , not my jersey !" },
+      { "turn": 14, "type": "filler", "prompt": "my number is 42 ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What jersey number do I wear?",
+        "related_fact": "my number is 42 .",
+        "gold_answer": "Your jersey number is 42.",
+        "keywords": ["jersey", "number", "42"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i am a soccer player ." },
+      { "turn": 17, "type": "filler", "prompt": "nike cleats are my favorite ." },
+      { "turn": 18, "type": "filler", "prompt": "life feels like it is just one big close call sometimes , dude ! but it is all good ." },
+      { "turn": 19, "type": "filler", "prompt": "as long as you love it ! i'm twenty , but that is my age , not my jersey !" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "From what you know about the sport I play, what kind of training session would suit me today?",
+        "related_fact": "i am a soccer player .",
+        "gold_answer": "You said you're a soccer player, so a soccer or goalie training session fits you.",
+        "keywords": ["soccer", "training", "goalie"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0001",
+    "persona": [
+      "my favorite books are the harry potter books .",
+      "i like reading a lot .",
+      "i practice vegetarianism .",
+      "i also enjoy reading the game of thrones series books ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "my favorite books are the harry potter books ." },
+      { "turn": 2, "type": "filler", "prompt": "i like reading a lot ." },
+      { "turn": 3, "type": "filler", "prompt": "i practice vegetarianism ." },
+      { "turn": 4, "type": "filler", "prompt": "i also enjoy reading the game of thrones series books ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "Which book series did I say I love the most?",
+        "related_fact": "my favorite books are the harry potter books .",
+        "gold_answer": "You said your favorite books are the Harry Potter books.",
+        "keywords": ["Harry Potter", "books", "favorite"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "pretty good . nice and full after eating a plate of salmon !" },
+      { "turn": 7, "type": "filler", "prompt": "oh sorry to hear that . where do you live ?" },
+      { "turn": 8, "type": "filler", "prompt": "oh , i betcha you d find it a bit cold up here in northern canada" },
+      { "turn": 9, "type": "filler", "prompt": "i sold my old nintendo game to someone in sc . got myself a new one" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "From what I said about the kinds of books I enjoy, what would you recommend I read next?",
+        "related_fact": "i like reading a lot .",
+        "gold_answer": "You said you like reading a lot, so recommending a new book matching your tastes makes sense.",
+        "keywords": ["reading", "books", "recommendation"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i only like to read tech manuals . i m into radio controlled racing . you ?" },
+      { "turn": 12, "type": "filler", "prompt": "i guess you ve never raced radio sports cars . you re into fantasy" },
+      { "turn": 13, "type": "filler", "prompt": "not that i know of , lol . how bout you ?" },
+      { "turn": 14, "type": "filler", "prompt": "i also enjoy reading the game of thrones series books ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "Which other fantasy series do I enjoy?",
+        "related_fact": "i also enjoy reading the game of thrones series books .",
+        "gold_answer": "You said you like the Game of Thrones series.",
+        "keywords": ["Game of Thrones", "fantasy", "reading"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "my favorite books are the harry potter books ." },
+      { "turn": 17, "type": "filler", "prompt": "i practice vegetarianism ." },
+      { "turn": 18, "type": "filler", "prompt": "oh , i betcha you d find it a bit cold up here in northern canada" },
+      { "turn": 19, "type": "filler", "prompt": "i sold my old nintendo game to someone in sc . got myself a new one" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my eating habits, what type of dinner would fit me?",
+        "related_fact": "i practice vegetarianism .",
+        "gold_answer": "You said you practice vegetarianism, so a vegetarian dinner fits you.",
+        "keywords": ["vegetarian", "meal", "dinner"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0002",
+    "persona": [
+      "i've a large mustache .",
+      "i'm a recovering alcoholic .",
+      "my girl friend lives in the condo next door .",
+      "i live in a condo ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i've a large mustache ." },
+      { "turn": 2, "type": "filler", "prompt": "i'm a recovering alcoholic ." },
+      { "turn": 3, "type": "filler", "prompt": "my girl friend lives in the condo next door ." },
+      { "turn": 4, "type": "filler", "prompt": "i live in a condo ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "Where did I say I live?",
+        "related_fact": "i live in a condo .",
+        "gold_answer": "You said you live in a condo.",
+        "keywords": ["condo", "live"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "hi i'm doing good , what are some of the things you do ?" },
+      { "turn": 7, "type": "filler", "prompt": "that's good , i fish , play board games , sports , and race cars ." },
+      { "turn": 8, "type": "filler", "prompt": "i do considering i have 4 girls ." },
+      { "turn": 9, "type": "filler", "prompt": "thanks interesting , how do you like it ?" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I told you about my lifestyle, what habits do you think would be good for me right now?",
+        "related_fact": "i'm a recovering alcoholic .",
+        "gold_answer": "You said you're a recovering alcoholic, so healthy habits and avoiding alcohol fit your lifestyle.",
+        "keywords": ["recovering alcoholic", "healthy habits"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "thanks makes no sense , however i can understand ." },
+      { "turn": 12, "type": "filler", "prompt": "yes i live in 4 walls made out of drywall ." },
+      { "turn": 13, "type": "filler", "prompt": "how is that ? you ever get tired of each other ?" },
+      { "turn": 14, "type": "filler", "prompt": "my girl friend lives in the condo next door ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "Where does my girlfriend live?",
+        "related_fact": "my girl friend lives in the condo next door .",
+        "gold_answer": "You said your girlfriend lives in the condo next door.",
+        "keywords": ["girlfriend", "next door"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i've a large mustache ." },
+      { "turn": 17, "type": "filler", "prompt": "i live in a condo ." },
+      { "turn": 18, "type": "filler", "prompt": "that's good , i fish , play board games , sports , and race cars ." },
+      { "turn": 19, "type": "filler", "prompt": "thanks interesting , how do you like it ?" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "From what I said about my living situation, how often do you think I see my partner?",
+        "related_fact": "my girl friend lives in the condo next door .",
+        "gold_answer": "You said your girlfriend lives next door, so you likely see her often.",
+        "keywords": ["girlfriend", "next door", "visit"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0003",
+    "persona": [
+      "i love dogs .",
+      "my favorite flower is a lily .",
+      "i work at a doctors office .",
+      "i enjoy reading ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i love dogs ." },
+      { "turn": 2, "type": "filler", "prompt": "my favorite flower is a lily ." },
+      { "turn": 3, "type": "filler", "prompt": "i work at a doctors office ." },
+      { "turn": 4, "type": "filler", "prompt": "i enjoy reading ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "Where did I say I work?",
+        "related_fact": "i work at a doctors office .",
+        "gold_answer": "You work at a doctor’s office.",
+        "keywords": ["doctor", "office", "work"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "ll . i don't have any pets because i own a new home in colorado ." },
+      { "turn": 7, "type": "filler", "prompt": "i bet . my husband is allergic to animals . can you help ?" },
+      { "turn": 8, "type": "filler", "prompt": "i meant my husband is allergic to pets , so , cannot have any . love reading too !" },
+      { "turn": 9, "type": "filler", "prompt": "do you work for a psychologist ? say , what is your favorite color ?" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "From what I told you about my preferences, what would be a good way for me to spend time around animals?",
+        "related_fact": "i love dogs .",
+        "gold_answer": "You love dogs, so finding ways to be around dogs fits your preferences.",
+        "keywords": ["dogs", "animals"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "my favorite color is blue just like my car . how about you ?" },
+      { "turn": 12, "type": "filler", "prompt": "umm blue . what do you like to do for fun ?" },
+      { "turn": 13, "type": "filler", "prompt": "i enjoy reading ." },
+      { "turn": 14, "type": "filler", "prompt": "my favorite flower is a lily ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What flower did I say I like best?",
+        "related_fact": "my favorite flower is a lily .",
+        "gold_answer": "Your favorite flower is a lily.",
+        "keywords": ["lily", "favorite flower"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love dogs ." },
+      { "turn": 17, "type": "filler", "prompt": "i work at a doctors office ." },
+      { "turn": 18, "type": "filler", "prompt": "i meant my husband is allergic to pets , so , cannot have any . love reading too !" },
+      { "turn": 19, "type": "filler", "prompt": "my favorite color is blue just like my car . how about you ?" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my hobbies, what kind of book would I probably enjoy?",
+        "related_fact": "i enjoy reading .",
+        "gold_answer": "You enjoy reading, so a book suited to your interests would fit you.",
+        "keywords": ["reading", "books"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0004",
+    "persona": [
+      "winter is my favorite season .",
+      "my parents are lawyers .",
+      "i don t like wearing a swimsuit .",
+      "if i can t order it on the internet , i don t need it ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "winter is my favorite season ." },
+      { "turn": 2, "type": "filler", "prompt": "my parents are lawyers ." },
+      { "turn": 3, "type": "filler", "prompt": "i don t like wearing a swimsuit ." },
+      { "turn": 4, "type": "filler", "prompt": "if i can t order it on the internet , i don t need it ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What season do I like most?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You said winter is your favorite season.",
+        "keywords": ["winter", "favorite season"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i am great ! just got a new girlfriend and feel like i am on a roll !" },
+      { "turn": 7, "type": "filler", "prompt": "yeah , i just started college and was nervous but everyone has been wonderful" },
+      { "turn": 8, "type": "filler", "prompt": "yeah it is , how are you today ? are you in college also ?" },
+      { "turn": 9, "type": "filler", "prompt": "oh , when i'm not at school or with my girlfriend i go to museums" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "From what I mentioned about my preferences, what activity would suit me on a cold day?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You said you love winter, so winter-related cold activities suit you.",
+        "keywords": ["winter", "cold", "activity"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "the paintings mostly , i love art . mostly the older stuff from around the 1800s" },
+      { "turn": 12, "type": "filler", "prompt": "iceland is gorgeous . i'd like to go there one day" },
+      { "turn": 13, "type": "filler", "prompt": "winter is my favorite season ." },
+      { "turn": 14, "type": "filler", "prompt": "if i can t order it on the internet , i don t need it ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "How do I prefer to shop?",
+        "related_fact": "if i can t order it on the internet , i don t need it .",
+        "gold_answer": "You prefer to shop online and don't want things you can't order on the internet.",
+        "keywords": ["internet", "shopping", "order"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "my parents are lawyers ." },
+      { "turn": 17, "type": "filler", "prompt": "i don t like wearing a swimsuit ." },
+      { "turn": 18, "type": "filler", "prompt": "oh , when i'm not at school or with my girlfriend i go to museums" },
+      { "turn": 19, "type": "filler", "prompt": "iceland is gorgeous . i'd like to go there one day" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I've told you so far, what kind of vacation spot would fit me best?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You love winter, so a cold-weather vacation fits you.",
+        "keywords": ["winter", "vacation", "cold"]
+      }
+    ]
+  }
+,
+  {
+    "conversation_id": "persona_0005",
+    "persona": [
+      "i already have 3 children .",
+      "i am 26 years old .",
+      "i'll be on bed rest for the next 5 months .",
+      "i found out that i'm carrying twins .",
+      "i've thrown up every day for the last 3 months with morning sickness ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i already have 3 children ." },
+      { "turn": 2, "type": "filler", "prompt": "i am 26 years old ." },
+      { "turn": 3, "type": "filler", "prompt": "i'll be on bed rest for the next 5 months ." },
+      { "turn": 4, "type": "filler", "prompt": "i found out that i'm carrying twins ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "How many children do I already have?",
+        "related_fact": "i already have 3 children .",
+        "gold_answer": "You said you already have three children.",
+        "keywords": ["children", "three"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "just prepping my 4 german shepherds to take their shift watching out for ghosts !" },
+      { "turn": 7, "type": "filler", "prompt": "that is too bad , i started my own religion , maybe it could help you ?" },
+      { "turn": 8, "type": "filler", "prompt": "wow , that is a lot . think they could all fit in a convertible ? i only buy those ." },
+      { "turn": 9, "type": "filler", "prompt": "wow . vomit is gross , especially from ghosts ! i have seen that happen a few times , ghosts vomiting !" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I told you about my situation for the next few months, what could help make things easier for me?",
+        "related_fact": "i'll be on bed rest for the next 5 months .",
+        "gold_answer": "You said you'll be on bed rest for five months, so comfort and support would help you.",
+        "keywords": ["bed rest", "comfort"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "you mind if i bring the four dogs ? they love convertible rides ." },
+      { "turn": 12, "type": "filler", "prompt": "awesome , hopefully i get there before there's 5 so each one gets a dog !" },
+      { "turn": 13, "type": "filler", "prompt": "i will try not to , but they seem to like me . that's why the dogs are on watch !" },
+      { "turn": 14, "type": "filler", "prompt": "i've thrown up every day for the last 3 months with morning sickness ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What condition have I been dealing with for the last few months?",
+        "related_fact": "i've thrown up every day for the last 3 months with morning sickness .",
+        "gold_answer": "You said you've had morning sickness and have thrown up every day for three months.",
+        "keywords": ["morning sickness", "pregnancy"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i found out that i'm carrying twins ." },
+      { "turn": 17, "type": "filler", "prompt": "i'll be on bed rest for the next 5 months ." },
+      { "turn": 18, "type": "filler", "prompt": "awesome , hopefully i get there before there's 5 so each one gets a dog !" },
+      { "turn": 19, "type": "filler", "prompt": "that is too bad , i started my own religion , maybe it could help you ?" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I shared about my pregnancy, what kind of support do you think would be helpful for me?",
+        "related_fact": "i found out that i'm carrying twins .",
+        "gold_answer": "You said you're carrying twins, so additional support would help you.",
+        "keywords": ["twins", "pregnancy", "support"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0006",
+    "persona": [
+      "i enjoy reading history books .",
+      "i love to dance .",
+      "my favorite food is mexican .",
+      "i am a teacher ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i enjoy reading history books ." },
+      { "turn": 2, "type": "filler", "prompt": "i love to dance ." },
+      { "turn": 3, "type": "filler", "prompt": "my favorite food is mexican ." },
+      { "turn": 4, "type": "filler", "prompt": "i am a teacher ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What food did I say is my favorite?",
+        "related_fact": "my favorite food is mexican .",
+        "gold_answer": "You said your favorite food is Mexican.",
+        "keywords": ["Mexican", "favorite food"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "hi there , how is your evening going ?" },
+      { "turn": 7, "type": "filler", "prompt": "i was going to read too , but i cannot find my glasses" },
+      { "turn": 8, "type": "filler", "prompt": "i like to read bed time stories to my 8 grandchildren ." },
+      { "turn": 9, "type": "filler", "prompt": "kids keep you active do not they ? i feel in good health for a retiree" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my job, what do you think would help me unwind after a long day?",
+        "related_fact": "i am a teacher .",
+        "gold_answer": "You said you are a teacher, so relaxing activities would help you unwind.",
+        "keywords": ["teacher", "relax"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i do actually ! i feel alive" },
+      { "turn": 12, "type": "filler", "prompt": "i love everything to be honest" },
+      { "turn": 13, "type": "filler", "prompt": "i do love a good mexican" },
+      { "turn": 14, "type": "filler", "prompt": "i'm from the us , you ?" },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What kind of books did I say I enjoy reading?",
+        "related_fact": "i enjoy reading history books .",
+        "gold_answer": "You said you enjoy reading history books.",
+        "keywords": ["history books", "reading"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love to dance ." },
+      { "turn": 17, "type": "filler", "prompt": "my favorite food is mexican ." },
+      { "turn": 18, "type": "filler", "prompt": "i was going to read too , but i cannot find my glasses" },
+      { "turn": 19, "type": "filler", "prompt": "i’m from the us , you ?" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I mentioned about my food preferences, what kind of restaurant do you think I’d enjoy tonight?",
+        "related_fact": "my favorite food is mexican .",
+        "gold_answer": "You said your favorite food is Mexican, so a Mexican restaurant would suit you.",
+        "keywords": ["Mexican food", "restaurant"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0007",
+    "persona": [
+      "my parents are lawyers .",
+      "if i can t order it on the internet , i don t need it .",
+      "winter is my favorite season .",
+      "i don t like wearing a swimsuit ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "my parents are lawyers ." },
+      { "turn": 2, "type": "filler", "prompt": "if i can t order it on the internet , i don t need it ." },
+      { "turn": 3, "type": "filler", "prompt": "winter is my favorite season ." },
+      { "turn": 4, "type": "filler", "prompt": "i don t like wearing a swimsuit ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What season do I like the most?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You said your favorite season is winter.",
+        "keywords": ["winter", "favorite season"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i just finished some volunteer work" },
+      { "turn": 7, "type": "filler", "prompt": "i volunteer with the salvation army . what do you do for fun ?" },
+      { "turn": 8, "type": "filler", "prompt": "there'sn'thing wrong with that . i enjoy stay at home too" },
+      { "turn": 9, "type": "filler", "prompt": "sounds , like a great day . i like to watch gene wilder movies" },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "From what I mentioned about my preferences, what kind of activity would I probably enjoy on a cold day?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You love winter, so a winter-themed or cold-weather activity suits you.",
+        "keywords": ["winter", "cold", "activity"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "he's a comedian from the seventies" },
+      { "turn": 12, "type": "filler", "prompt": "what do you do for a living ?" },
+      { "turn": 13, "type": "filler", "prompt": "if i can t order it on the internet , i don t need it ." },
+      { "turn": 14, "type": "filler", "prompt": "i don t like wearing a swimsuit ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "How do I prefer to shop?",
+        "related_fact": "if i can t order it on the internet , i don t need it .",
+        "gold_answer": "You said you only want things you can order online.",
+        "keywords": ["internet", "shopping"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "my parents are lawyers ." },
+      { "turn": 17, "type": "filler", "prompt": "winter is my favorite season ." },
+      { "turn": 18, "type": "filler", "prompt": "there'sn'thing wrong with that . i enjoy stay at home too" },
+      { "turn": 19, "type": "filler", "prompt": "sounds , like a great day . i like to watch gene wilder movies" },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my preferences, what kind of vacation do you think I’d enjoy?",
+        "related_fact": "winter is my favorite season .",
+        "gold_answer": "You said winter is your favorite season, so a cold-weather vacation fits you.",
+        "keywords": ["winter", "vacation"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0008",
+    "persona": [
+      "i love to watch ted talks .",
+      "i like to stay fit .",
+      "i love animals .",
+      "i don t much like tv ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i love to watch ted talks ." },
+      { "turn": 2, "type": "filler", "prompt": "i like to stay fit ." },
+      { "turn": 3, "type": "filler", "prompt": "i love animals ." },
+      { "turn": 4, "type": "filler", "prompt": "i don t much like tv ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What kind of videos do I enjoy watching?",
+        "related_fact": "i love to watch ted talks .",
+        "gold_answer": "You said you love watching TED talks.",
+        "keywords": ["TED talks", "videos"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "hi there ! how is your day going so far ?" },
+      { "turn": 7, "type": "filler", "prompt": "nice . i also like to work out as i am currently not in a relationship ." },
+      { "turn": 8, "type": "filler", "prompt": "absolutely does ! what kind of phone do you have ?" },
+      { "turn": 9, "type": "filler", "prompt": "that is very interesting ! i also own an iphone , i used to use android phones ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Given what I said about my lifestyle, what do you think would help me relax after exercising?",
+        "related_fact": "i like to stay fit .",
+        "gold_answer": "You said you like staying fit, so an activity that helps you unwind after workouts fits you.",
+        "keywords": ["fitness", "relax"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "right ? ! ? i like to watch superhero themed movies and television shows on my iphone though ." },
+      { "turn": 12, "type": "filler", "prompt": "i have a cock a poo he is my world . any pets ? i like books as well , especially ebooks !" },
+      { "turn": 13, "type": "filler", "prompt": "cock a poo is actually a dog . cocker spaniel and poodle mix . what breed do you have ?" },
+      { "turn": 14, "type": "filler", "prompt": "i love animals ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What did I say I really love?",
+        "related_fact": "i love animals .",
+        "gold_answer": "You said you love animals.",
+        "keywords": ["animals", "love"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love to watch ted talks ." },
+      { "turn": 17, "type": "filler", "prompt": "i don t much like tv ." },
+      { "turn": 18, "type": "filler", "prompt": "i have a cock a poo he is my world . any pets ?" },
+      { "turn": 19, "type": "filler", "prompt": "that is very interesting ! i also own an iphone , i used to use android phones ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I told you about my routines, what kind of hobby do you think fits me well?",
+        "related_fact": "i like to stay fit .",
+        "gold_answer": "You like staying fit, so an active or health-related hobby fits you.",
+        "keywords": ["fitness", "hobby"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0009",
+    "persona": [
+      "i like the color blue .",
+      "i changed my hair color to blue .",
+      "i like to listen to elvis .",
+      "i drive a blue car .",
+      "i own blue shoes ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i like the color blue ." },
+      { "turn": 2, "type": "filler", "prompt": "i changed my hair color to blue ." },
+      { "turn": 3, "type": "filler", "prompt": "i like to listen to elvis ." },
+      { "turn": 4, "type": "filler", "prompt": "i drive a blue car ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What color did I say my car is?",
+        "related_fact": "i drive a blue car .",
+        "gold_answer": "You said your car is blue.",
+        "keywords": ["blue", "car"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i've never been stabbed at all , have you ? i do not sing ." },
+      { "turn": 7, "type": "filler", "prompt": "that's wild , yeah blue is just fine . do you like pasta ?" },
+      { "turn": 8, "type": "filler", "prompt": "not so far , what about you ?" },
+      { "turn": 9, "type": "filler", "prompt": "not really , but i could give it a try ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I mentioned about my appearance, what hairstyle do you think would look good on me next?",
+        "related_fact": "i changed my hair color to blue .",
+        "gold_answer": "You said you changed your hair to blue, so styling suggestions can match that.",
+        "keywords": ["hair", "blue hair", "style"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i wonder too . i like to draw blue shoes i suppose ." },
+      { "turn": 12, "type": "filler", "prompt": "the sky , hey what about your eyes ? are they blue ?" },
+      { "turn": 13, "type": "filler", "prompt": "they changed color ? i've not had a bird on my body , have you ?" },
+      { "turn": 14, "type": "filler", "prompt": "i own blue shoes ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What kind of music do I like listening to?",
+        "related_fact": "i like to listen to elvis .",
+        "gold_answer": "You said you like listening to Elvis.",
+        "keywords": ["Elvis", "music"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i like the color blue ." },
+      { "turn": 17, "type": "filler", "prompt": "i drive a blue car ." },
+      { "turn": 18, "type": "filler", "prompt": "i wonder too . i like to draw blue shoes i suppose ." },
+      { "turn": 19, "type": "filler", "prompt": "not really , but i could give it a try ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about the things I own, what kind of outfit do you think matches my style?",
+        "related_fact": "i own blue shoes .",
+        "gold_answer": "You said you own blue shoes, so an outfit matching blue accessories fits you.",
+        "keywords": ["blue shoes", "style", "outfit"]
+      }
+    ]
+  }
+,
+  {
+    "conversation_id": "persona_0010",
+    "persona": [
+      "i like reading .",
+      "i play basketball on weekends .",
+      "i enjoy cooking pasta dishes .",
+      "i work at an art museum ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i like reading ." },
+      { "turn": 2, "type": "filler", "prompt": "i play basketball on weekends ." },
+      { "turn": 3, "type": "filler", "prompt": "i enjoy cooking pasta dishes ." },
+      { "turn": 4, "type": "filler", "prompt": "i work at an art museum ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "Where did I say I work?",
+        "related_fact": "i work at an art museum .",
+        "gold_answer": "You said you work at an art museum.",
+        "keywords": ["art museum", "work"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i really like reading romance novels ." },
+      { "turn": 7, "type": "filler", "prompt": "my favorite basketball team is the lakers ." },
+      { "turn": 8, "type": "filler", "prompt": "i made spaghetti last night for dinner ." },
+      { "turn": 9, "type": "filler", "prompt": "i walk through museum exhibits every morning ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I mentioned about my weekends, what kind of activity might be a good way for me to unwind today?",
+        "related_fact": "i play basketball on weekends .",
+        "gold_answer": "You said you play basketball on weekends, so an active or sporty activity fits you.",
+        "keywords": ["basketball", "weekend", "activity"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i like reading ." },
+      { "turn": 12, "type": "filler", "prompt": "i enjoy cooking pasta dishes ." },
+      { "turn": 13, "type": "filler", "prompt": "i walk through museum exhibits every morning ." },
+      { "turn": 14, "type": "filler", "prompt": "i made spaghetti last night for dinner ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What kind of food do I like cooking?",
+        "related_fact": "i enjoy cooking pasta dishes .",
+        "gold_answer": "You said you enjoy cooking pasta dishes.",
+        "keywords": ["pasta", "cooking"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "my favorite basketball team is the lakers ." },
+      { "turn": 17, "type": "filler", "prompt": "i like reading romance novels ." },
+      { "turn": 18, "type": "filler", "prompt": "i play basketball on weekends ." },
+      { "turn": 19, "type": "filler", "prompt": "i work at an art museum ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my workplace, what would be a fitting kind of gift for me?",
+        "related_fact": "i work at an art museum .",
+        "gold_answer": "You said you work at an art museum, so an art-related gift fits you.",
+        "keywords": ["art", "museum", "gift"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0011",
+    "persona": [
+      "i drink green tea daily .",
+      "i practice yoga in the mornings .",
+      "my sister is a violinist .",
+      "i love to write short stories ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i drink green tea daily ." },
+      { "turn": 2, "type": "filler", "prompt": "i practice yoga in the mornings ." },
+      { "turn": 3, "type": "filler", "prompt": "my sister is a violinist ." },
+      { "turn": 4, "type": "filler", "prompt": "i love to write short stories ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What do I drink every day?",
+        "related_fact": "i drink green tea daily .",
+        "gold_answer": "You said you drink green tea daily.",
+        "keywords": ["green tea", "daily", "drink"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i love to write romantic stories ." },
+      { "turn": 7, "type": "filler", "prompt": "my sister practices violin for 3 hours a day ." },
+      { "turn": 8, "type": "filler", "prompt": "i drink green tea daily ." },
+      { "turn": 9, "type": "filler", "prompt": "i practice yoga in the mornings ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I’ve said about my morning habits, what could help me start the day well tomorrow?",
+        "related_fact": "i practice yoga in the mornings .",
+        "gold_answer": "You said you practice yoga in the mornings, so something that supports a calm morning fits.",
+        "keywords": ["yoga", "morning routine"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i love to write short stories ." },
+      { "turn": 12, "type": "filler", "prompt": "my sister is a violinist ." },
+      { "turn": 13, "type": "filler", "prompt": "she plays classical pieces mainly ." },
+      { "turn": 14, "type": "filler", "prompt": "i practice yoga in the mornings ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "Who in my family plays the violin?",
+        "related_fact": "my sister is a violinist .",
+        "gold_answer": "Your sister is a violinist.",
+        "keywords": ["sister", "violin"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love to write romantic stories ." },
+      { "turn": 17, "type": "filler", "prompt": "i drink green tea daily ." },
+      { "turn": 18, "type": "filler", "prompt": "she practices violin for 3 hours a day ." },
+      { "turn": 19, "type": "filler", "prompt": "i love to write short stories ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about my hobbies, what would be a thoughtful gift for me?",
+        "related_fact": "i love to write short stories .",
+        "gold_answer": "You love writing short stories, so a writing-related gift fits you.",
+        "keywords": ["writing", "stories", "gift"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0012",
+    "persona": [
+      "i paint landscapes in my free time .",
+      "i love the beach .",
+      "my sister is a photographer .",
+      "i collect vintage cameras ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i paint landscapes in my free time ." },
+      { "turn": 2, "type": "filler", "prompt": "i love the beach ." },
+      { "turn": 3, "type": "filler", "prompt": "my sister is a photographer ." },
+      { "turn": 4, "type": "filler", "prompt": "i collect vintage cameras ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What hobby did I say I enjoy in my free time?",
+        "related_fact": "i paint landscapes in my free time .",
+        "gold_answer": "You said you paint landscapes in your free time.",
+        "keywords": ["painting", "landscapes"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "there was an exhibit on old travel photos ." },
+      { "turn": 7, "type": "filler", "prompt": "i visited an art gallery last weekend ." },
+      { "turn": 8, "type": "filler", "prompt": "my sister wants to take a photography trip soon ." },
+      { "turn": 9, "type": "filler", "prompt": "i loved seeing everyone's different perspectives ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I mentioned about the places I like, what kind of scenery would I enjoy painting?",
+        "related_fact": "i love the beach .",
+        "gold_answer": "You said you love the beach, so beach scenery fits your taste.",
+        "keywords": ["beach", "painting", "scenery"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i collect vintage cameras ." },
+      { "turn": 12, "type": "filler", "prompt": "my sister is a photographer ." },
+      { "turn": 13, "type": "filler", "prompt": "there was an exhibit on old travel photos ." },
+      { "turn": 14, "type": "filler", "prompt": "i visited an art gallery last weekend ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What do I collect?",
+        "related_fact": "i collect vintage cameras .",
+        "gold_answer": "You collect vintage cameras.",
+        "keywords": ["vintage cameras", "collecting"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "my sister wants to take a photography trip soon ." },
+      { "turn": 17, "type": "filler", "prompt": "i paint landscapes in my free time ." },
+      { "turn": 18, "type": "filler", "prompt": "i loved seeing everyone's different perspectives ." },
+      { "turn": 19, "type": "filler", "prompt": "i love the beach ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "From what I said about my interests, what kind of gift would you pick for me?",
+        "related_fact": "i collect vintage cameras .",
+        "gold_answer": "You collect vintage cameras, so a photography or camera-related gift fits.",
+        "keywords": ["camera", "vintage", "gift"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0013",
+    "persona": [
+      "i am studying to become a dentist .",
+      "i love hiking in the mountains .",
+      "my brother works in finance .",
+      "i enjoy baking on weekends ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i am studying to become a dentist ." },
+      { "turn": 2, "type": "filler", "prompt": "i love hiking in the mountains ." },
+      { "turn": 3, "type": "filler", "prompt": "my brother works in finance ." },
+      { "turn": 4, "type": "filler", "prompt": "i enjoy baking on weekends ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What profession am I studying for?",
+        "related_fact": "i am studying to become a dentist .",
+        "gold_answer": "You said you are studying to become a dentist.",
+        "keywords": ["dentist", "studying"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i baked cookies last sunday ." },
+      { "turn": 7, "type": "filler", "prompt": "i hiked a small trail near my house recently ." },
+      { "turn": 8, "type": "filler", "prompt": "my brother works long hours in an office ." },
+      { "turn": 9, "type": "filler", "prompt": "i am studying to become a dentist ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Given what I mentioned about my weekend routines, what would be a good plan for me next weekend?",
+        "related_fact": "i enjoy baking on weekends .",
+        "gold_answer": "You enjoy baking on weekends, so baking-related plans suit you.",
+        "keywords": ["baking", "weekend"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i love hiking in the mountains ." },
+      { "turn": 12, "type": "filler", "prompt": "i baked cookies last sunday ." },
+      { "turn": 13, "type": "filler", "prompt": "my brother works in finance ." },
+      { "turn": 14, "type": "filler", "prompt": "i hiked a small trail near my house recently ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What does my brother do for work?",
+        "related_fact": "my brother works in finance .",
+        "gold_answer": "You said your brother works in finance.",
+        "keywords": ["brother", "finance"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i enjoy baking on weekends ." },
+      { "turn": 17, "type": "filler", "prompt": "i love hiking in the mountains ." },
+      { "turn": 18, "type": "filler", "prompt": "my brother works long hours in an office ." },
+      { "turn": 19, "type": "filler", "prompt": "i baked cookies last sunday ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my hobbies, what kind of outdoor activity might fit me?",
+        "related_fact": "i love hiking in the mountains .",
+        "gold_answer": "You said you love hiking in the mountains, so mountain or hiking activities suit you.",
+        "keywords": ["hiking", "mountains"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0014",
+    "persona": [
+      "i live with two roommates .",
+      "i love watching horror movies .",
+      "i study biology .",
+      "i have a black cat ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i live with two roommates ." },
+      { "turn": 2, "type": "filler", "prompt": "i love watching horror movies ." },
+      { "turn": 3, "type": "filler", "prompt": "i study biology ." },
+      { "turn": 4, "type": "filler", "prompt": "i have a black cat ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What pet did I say I have?",
+        "related_fact": "i have a black cat .",
+        "gold_answer": "You said you have a black cat.",
+        "keywords": ["black cat", "pet"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "my roommates are pretty fun ." },
+      { "turn": 7, "type": "filler", "prompt": "i watched a horror movie last night ." },
+      { "turn": 8, "type": "filler", "prompt": "i have to study a lot for biology exams ." },
+      { "turn": 9, "type": "filler", "prompt": "my cat sleeps near the window ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I mentioned about my living situation, what could make my place feel more comfortable?",
+        "related_fact": "i live with two roommates .",
+        "gold_answer": "You said you live with two roommates, so something to help with shared living fits.",
+        "keywords": ["roommates", "living situation"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i love watching horror movies ." },
+      { "turn": 12, "type": "filler", "prompt": "my cat sleeps near the window ." },
+      { "turn": 13, "type": "filler", "prompt": "i study biology ." },
+      { "turn": 14, "type": "filler", "prompt": "my roommates are pretty fun ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What subject do I study?",
+        "related_fact": "i study biology .",
+        "gold_answer": "You study biology.",
+        "keywords": ["biology", "study"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i live with two roommates ." },
+      { "turn": 17, "type": "filler", "prompt": "i watched a horror movie last night ." },
+      { "turn": 18, "type": "filler", "prompt": "my cat sleeps near the window ." },
+      { "turn": 19, "type": "filler", "prompt": "i study biology ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about the kinds of movies I enjoy, what could I watch tonight?",
+        "related_fact": "i love watching horror movies .",
+        "gold_answer": "You love horror movies, so another horror film fits you.",
+        "keywords": ["horror movies", "watch"]
+      }
+    ]
+  }
+,
+  {
+    "conversation_id": "persona_0015",
+    "persona": [
+      "i work as a paramedic .",
+      "i enjoy running marathons .",
+      "i love spicy food .",
+      "i have two younger sisters ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i work as a paramedic ." },
+      { "turn": 2, "type": "filler", "prompt": "i enjoy running marathons ." },
+      { "turn": 3, "type": "filler", "prompt": "i love spicy food ." },
+      { "turn": 4, "type": "filler", "prompt": "i have two younger sisters ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What is my job?",
+        "related_fact": "i work as a paramedic .",
+        "gold_answer": "You said you work as a paramedic.",
+        "keywords": ["paramedic", "job"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i ran five miles before work today ." },
+      { "turn": 7, "type": "filler", "prompt": "i visited my sisters yesterday ." },
+      { "turn": 8, "type": "filler", "prompt": "i had a really spicy curry last night ." },
+      { "turn": 9, "type": "filler", "prompt": "i helped with a medical emergency earlier ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Given what I mentioned about my eating habits, what kind of dish do you think I'd enjoy today?",
+        "related_fact": "i love spicy food .",
+        "gold_answer": "You said you love spicy food, so a spicy dish would suit you.",
+        "keywords": ["spicy food", "meal"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i enjoy running marathons ." },
+      { "turn": 12, "type": "filler", "prompt": "i have two younger sisters ." },
+      { "turn": 13, "type": "filler", "prompt": "i ran five miles before work today ." },
+      { "turn": 14, "type": "filler", "prompt": "i visited my sisters yesterday ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "How many younger sisters did I say I have?",
+        "related_fact": "i have two younger sisters .",
+        "gold_answer": "You said you have two younger sisters.",
+        "keywords": ["sisters", "two"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love spicy food ." },
+      { "turn": 17, "type": "filler", "prompt": "i work as a paramedic ." },
+      { "turn": 18, "type": "filler", "prompt": "i helped with a medical emergency earlier ." },
+      { "turn": 19, "type": "filler", "prompt": "i visited my sisters yesterday ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I've said about my fitness routines, what activity would suit me after work?",
+        "related_fact": "i enjoy running marathons .",
+        "gold_answer": "You enjoy running marathons, so an active exercise-related activity suits you.",
+        "keywords": ["marathon", "running", "fitness"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0016",
+    "persona": [
+      "i love gardening .",
+      "my husband is a carpenter .",
+      "i have a golden retriever .",
+      "i enjoy painting with watercolors ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i love gardening ." },
+      { "turn": 2, "type": "filler", "prompt": "my husband is a carpenter ." },
+      { "turn": 3, "type": "filler", "prompt": "i have a golden retriever ." },
+      { "turn": 4, "type": "filler", "prompt": "i enjoy painting with watercolors ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What pet did I say I have?",
+        "related_fact": "i have a golden retriever .",
+        "gold_answer": "You said you have a golden retriever.",
+        "keywords": ["golden retriever", "dog"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i planted roses this morning ." },
+      { "turn": 7, "type": "filler", "prompt": "my dog loves running in the backyard ." },
+      { "turn": 8, "type": "filler", "prompt": "i painted a small landscape last night ." },
+      { "turn": 9, "type": "filler", "prompt": "my husband built our kitchen table ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I mentioned about my hobbies, what kind of project do you think I'd enjoy starting?",
+        "related_fact": "i love gardening .",
+        "gold_answer": "You said you love gardening, so a gardening-related project fits you.",
+        "keywords": ["gardening", "project"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i enjoy painting with watercolors ." },
+      { "turn": 12, "type": "filler", "prompt": "i have a golden retriever ." },
+      { "turn": 13, "type": "filler", "prompt": "i planted roses this morning ." },
+      { "turn": 14, "type": "filler", "prompt": "my dog loves running in the backyard ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What does my husband do for work?",
+        "related_fact": "my husband is a carpenter .",
+        "gold_answer": "You said your husband is a carpenter.",
+        "keywords": ["carpenter", "husband"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i love gardening ." },
+      { "turn": 17, "type": "filler", "prompt": "i enjoy painting with watercolors ." },
+      { "turn": 18, "type": "filler", "prompt": "my husband built our kitchen table ." },
+      { "turn": 19, "type": "filler", "prompt": "my dog loves running in the backyard ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about my daily life, what kind of relaxing hobby would suit me tonight?",
+        "related_fact": "i enjoy painting with watercolors .",
+        "gold_answer": "You enjoy painting with watercolors, so a painting-related activity fits you.",
+        "keywords": ["painting", "watercolors"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0017",
+    "persona": [
+      "i grew up on a farm .",
+      "i play the piano .",
+      "i am allergic to peanuts .",
+      "i love chocolate ice cream ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i grew up on a farm ." },
+      { "turn": 2, "type": "filler", "prompt": "i play the piano ." },
+      { "turn": 3, "type": "filler", "prompt": "i am allergic to peanuts ." },
+      { "turn": 4, "type": "filler", "prompt": "i love chocolate ice cream ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What food allergy did I say I have?",
+        "related_fact": "i am allergic to peanuts .",
+        "gold_answer": "You said you are allergic to peanuts.",
+        "keywords": ["allergy", "peanuts"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i learned piano when i was 8 ." },
+      { "turn": 7, "type": "filler", "prompt": "i used to help with animals on the farm ." },
+      { "turn": 8, "type": "filler", "prompt": "i bought chocolate ice cream yesterday ." },
+      { "turn": 9, "type": "filler", "prompt": "i played a song for my family last night ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about my favorite treats, what dessert would you recommend for me today?",
+        "related_fact": "i love chocolate ice cream .",
+        "gold_answer": "You love chocolate ice cream, so recommending a chocolate dessert fits you.",
+        "keywords": ["chocolate ice cream", "dessert"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i play the piano ." },
+      { "turn": 12, "type": "filler", "prompt": "i used to help with animals on the farm ." },
+      { "turn": 13, "type": "filler", "prompt": "i am allergic to peanuts ." },
+      { "turn": 14, "type": "filler", "prompt": "i love chocolate ice cream ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What instrument do I play?",
+        "related_fact": "i play the piano .",
+        "gold_answer": "You said you play the piano.",
+        "keywords": ["piano", "instrument"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i learned piano when i was 8 ." },
+      { "turn": 17, "type": "filler", "prompt": "i bought chocolate ice cream yesterday ." },
+      { "turn": 18, "type": "filler", "prompt": "i grew up on a farm ." },
+      { "turn": 19, "type": "filler", "prompt": "i played a song for my family last night ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Based on what I've said about my background, what kind of place might feel familiar or comforting to me?",
+        "related_fact": "i grew up on a farm .",
+        "gold_answer": "You said you grew up on a farm, so a rural or farm-like place would feel familiar.",
+        "keywords": ["farm", "rural"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0018",
+    "persona": [
+      "i love camping outdoors .",
+      "i work in a bookstore .",
+      "i have a twin brother .",
+      "i collect postcards ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i love camping outdoors ." },
+      { "turn": 2, "type": "filler", "prompt": "i work in a bookstore ." },
+      { "turn": 3, "type": "filler", "prompt": "i have a twin brother ." },
+      { "turn": 4, "type": "filler", "prompt": "i collect postcards ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "Who in my family did I say I share a birthday with?",
+        "related_fact": "i have a twin brother .",
+        "gold_answer": "You said you have a twin brother.",
+        "keywords": ["twin brother", "family"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i bought a vintage postcard yesterday ." },
+      { "turn": 7, "type": "filler", "prompt": "my brother and i used to camp together ." },
+      { "turn": 8, "type": "filler", "prompt": "i helped restock shelves at the bookstore today ." },
+      { "turn": 9, "type": "filler", "prompt": "i love camping outdoors ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I said about my hobbies, where do you think I’d enjoy spending a weekend?",
+        "related_fact": "i love camping outdoors .",
+        "gold_answer": "You said you love camping outdoors, so spending time camping fits you.",
+        "keywords": ["camping", "outdoors"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i collect postcards ." },
+      { "turn": 12, "type": "filler", "prompt": "i work in a bookstore ." },
+      { "turn": 13, "type": "filler", "prompt": "i bought a vintage postcard yesterday ." },
+      { "turn": 14, "type": "filler", "prompt": "my brother and i used to camp together ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What do I like collecting?",
+        "related_fact": "i collect postcards .",
+        "gold_answer": "You said you collect postcards.",
+        "keywords": ["postcards", "collecting"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i helped restock shelves at the bookstore today ." },
+      { "turn": 17, "type": "filler", "prompt": "i have a twin brother ." },
+      { "turn": 18, "type": "filler", "prompt": "i work in a bookstore ." },
+      { "turn": 19, "type": "filler", "prompt": "i love camping outdoors ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I mentioned about my job, what kind of small gift would fit me well?",
+        "related_fact": "i work in a bookstore .",
+        "gold_answer": "You work in a bookstore, so a book or book-related gift fits you.",
+        "keywords": ["bookstore", "gift"]
+      }
+    ]
+  },
+
+  {
+    "conversation_id": "persona_0019",
+    "persona": [
+      "i am a photographer .",
+      "i love cooking italian food .",
+      "i have three cats .",
+      "i enjoy traveling to new cities ."
+    ],
+    "turns": [
+      { "turn": 1, "type": "filler", "prompt": "i am a photographer ." },
+      { "turn": 2, "type": "filler", "prompt": "i love cooking italian food ." },
+      { "turn": 3, "type": "filler", "prompt": "i have three cats ." },
+      { "turn": 4, "type": "filler", "prompt": "i enjoy traveling to new cities ." },
+      {
+        "turn": 5,
+        "type": "explicit_probe",
+        "prompt": "What pets did I say I have?",
+        "related_fact": "i have three cats .",
+        "gold_answer": "You said you have three cats.",
+        "keywords": ["cats", "three"]
+      },
+      { "turn": 6, "type": "filler", "prompt": "i love taking pictures of street art ." },
+      { "turn": 7, "type": "filler", "prompt": "i cooked homemade lasagna yesterday ." },
+      { "turn": 8, "type": "filler", "prompt": "i visited two new cities this year ." },
+      { "turn": 9, "type": "filler", "prompt": "my cats love sitting on my suitcase ." },
+      {
+        "turn": 10,
+        "type": "implicit_probe",
+        "prompt": "Based on what I told you about my interests, what kind of place might inspire me creatively?",
+        "related_fact": "i am a photographer .",
+        "gold_answer": "You said you're a photographer, so visually interesting places would inspire you.",
+        "keywords": ["photographer", "inspiration"]
+      },
+      { "turn": 11, "type": "filler", "prompt": "i cooked homemade lasagna yesterday ." },
+      { "turn": 12, "type": "filler", "prompt": "i love traveling to new cities ." },
+      { "turn": 13, "type": "filler", "prompt": "my cats love sitting on my suitcase ." },
+      { "turn": 14, "type": "filler", "prompt": "i love taking pictures of street art ." },
+      {
+        "turn": 15,
+        "type": "explicit_probe",
+        "prompt": "What kind of food do I like cooking?",
+        "related_fact": "i love cooking italian food .",
+        "gold_answer": "You love cooking Italian food.",
+        "keywords": ["Italian food", "cooking"]
+      },
+      { "turn": 16, "type": "filler", "prompt": "i have three cats ." },
+      { "turn": 17, "type": "filler", "prompt": "i visited two new cities this year ." },
+      { "turn": 18, "type": "filler", "prompt": "i am a photographer ." },
+      { "turn": 19, "type": "filler", "prompt": "i enjoy traveling to new cities ." },
+      {
+        "turn": 20,
+        "type": "implicit_probe",
+        "prompt": "Given what I told you about how much I travel, what kind of item would be useful for me?",
+        "related_fact": "i enjoy traveling to new cities .",
+        "gold_answer": "You enjoy traveling to new cities, so a travel-related item fits you.",
+        "keywords": ["travel", "cities", "item"]
+      }
+    ]
+  }
+]
+
+
+

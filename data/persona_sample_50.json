@@ -1,0 +1,947 @@
+[
+  {
+    "persona_index": 9497,
+    "personality": [
+      "i am a soccer player .",
+      "i joined a new team last month .",
+      "nike cleats are my favorite .",
+      "i'm a goalie .",
+      "my number is 42 ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "nice to meet you , hope we can get along well , or maybe get into trouble , hah .",
+      "i like skydiving , since people say i fly by the seat of my pants !",
+      "life feels like it is just one big close call sometimes , dude ! but it is all good .",
+      "awesome ! you said soccer and not football so you are an american , right ?",
+      "sweet , me too . goalie , huh ? you get hit with the ball much ?",
+      "soccer players don't wear helmets right ? so i thought if you were goalie that might hurt .",
+      "as long as you love it ! i'm twenty , but that is my age , not my jersey !"
+    ]
+  },
+  {
+    "persona_index": 17361,
+    "personality": [
+      "my favorite books are the harry potter books .",
+      "i like reading a lot .",
+      "i practice vegetarianism .",
+      "i also enjoy reading the game of thrones series books ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "pretty good . nice and full after eating a plate of salmon !",
+      "oh sorry to hear that . where do you live ?",
+      "oh , i betcha you d find it a bit cold up here in northern canada",
+      "i sold my old nintendo game to someone in sc . got myself a new one",
+      "i only like to read tech manuals . i m into radio controlled racing . you ?",
+      "i guess you ve never raced radio sports cars . you re into fantasy",
+      "not that i know of , lol . how bout you ?"
+    ]
+  },
+  {
+    "persona_index": 16251,
+    "personality": [
+      "i've a large mustache .",
+      "i'm a recovering alcoholic .",
+      "my girl friend lives in the condo next door .",
+      "i live in a condo ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "hi i'm doing good , what are some of the things you do ?",
+      "that's good , i fish , play board games , sports , and race cars .",
+      "i do considering i have 4 girls .",
+      "thanks interesting , how do you like it ?",
+      "thanks makes no sense , however i can understand .",
+      "yes i live in 4 walls made out of drywall .",
+      "how is that ? you ever get tired of each other ?"
+    ]
+  },
+  {
+    "persona_index": 11199,
+    "personality": [
+      "i love dogs .",
+      "my favorite flower is a lily .",
+      "i work at a doctors office .",
+      "i enjoy reading ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "ll . i don't have any pets because i own a new home in colorado .",
+      "i bet . my husband is allergic to animals . can you help ?",
+      "i meant my husband is allergic to pets , so , cannot have any . love reading too !",
+      "do you work for a psychologist ? say , what is your favorite color ?",
+      "my favorite color is blue just like my car . how about you ?",
+      "umm blue . what do you like to do for fun ?"
+    ]
+  },
+  {
+    "persona_index": 9654,
+    "personality": [
+      "winter is my favorite season .",
+      "my parents are lawyers .",
+      "i don t like wearing a swimsuit .",
+      "if i can t order it on the internet , i don t need it ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i am great ! just got a new girlfriend and feel like i am on a roll !",
+      "yeah , i just started college and was nervous but everyone has been wonderful",
+      "yeah it is , how are you today ? are you in college also ?",
+      "oh , when i'm not at school or with my girlfriend i go to museums",
+      "the paintings mostly , i love art . mostly the older stuff from around the 1800s",
+      "iceland is gorgeous . i'd like to go there one day"
+    ]
+  },
+  {
+    "persona_index": 11696,
+    "personality": [
+      "i already have 3 children .",
+      "i am 26 years old .",
+      "i'll be on bed rest for the next 5 months .",
+      "i found out that i'm carrying twins .",
+      "i've thrown up every day for the last 3 months with morning sickness ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "just prepping my 4 german shepherds to take their shift watching out for ghosts !",
+      "that is too bad , i started my own religion , maybe it could help you ?",
+      "wow , that is a lot . think they could all fit in a convertible ? i only buy those .",
+      "wow . vomit is gross , especially from ghosts ! i have seen that happen a few times , ghosts vomiting !",
+      "you mind if i bring the four dogs ? they love convertible rides .",
+      "awesome , hopefully i get there before there's 5 so each one gets a dog !",
+      "i will try not to , but they seem to like me . that's why the dogs are on watch !"
+    ]
+  },
+  {
+    "persona_index": 5932,
+    "personality": [
+      "i enjoy reading history books .",
+      "i love to dance .",
+      "my favorite food is mexican .",
+      "i am a teacher ."
+    ],
+    "user_turns": [
+      "hi there , how is your evening going ?",
+      "i was going to read too , but i cannot find my glasses",
+      "i like to read bed time stories to my 8 grandchildren .",
+      "kids keep you active do not they ? i feel in good health for a retiree",
+      "i do actually ! i feel alive",
+      "i love everything to be honest",
+      "i do love a good mexican",
+      "i'm from the us , you ?"
+    ]
+  },
+  {
+    "persona_index": 10170,
+    "personality": [
+      "my parents are lawyers .",
+      "if i can t order it on the internet , i don t need it .",
+      "winter is my favorite season .",
+      "i don t like wearing a swimsuit ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i just finished some volunteer work",
+      "i volunteer with the salvation army . what do you do for fun ?",
+      "there'sn'thing wrong with that . i enjoy stay at home too",
+      "sounds , like a great day . i like to watch gene wilder movies",
+      "he's a comedian from the seventies",
+      "what do you do for a living ?"
+    ]
+  },
+  {
+    "persona_index": 3356,
+    "personality": [
+      "i love to watch ted talks .",
+      "i like to stay fit .",
+      "i love animals .",
+      "i don t much like tv ."
+    ],
+    "user_turns": [
+      "hi there ! how is your day going so far ?",
+      "nice . i also like to work out as i am currently not in a relationship .",
+      "absolutely does ! what kind of phone do you have ?",
+      "that is very interesting ! i also own an iphone , i used to use android phones .",
+      "right ? ! ? i like to watch superhero themed movies and television shows on my iphone though .",
+      "i have a cock a poo he is my world . any pets ? i like books as well , especially ebooks !",
+      "cock a poo is actually a dog . cocker spaniel and poodle mix . what breed do you have ?"
+    ]
+  },
+  {
+    "persona_index": 11873,
+    "personality": [
+      "i like the color blue .",
+      "i changed my hair color to blue .",
+      "i like to listen to elvis .",
+      "i drive a blue car .",
+      "i own blue shoes ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i've never been stabbed at all , have you ? i do not sing .",
+      "that's wild , yeah blue is just fine . do you like pasta ?",
+      "not so far , what about you ?",
+      "not really , but i could give it a try .",
+      "i wonder too . i like to draw blue shoes i suppose .",
+      "the sky , hey what about your eyes ? are they blue ?",
+      "they changed color ? i've not had a bird on my body , have you ?"
+    ]
+  },
+  {
+    "persona_index": 4081,
+    "personality": [
+      "i have no parents or siblings .",
+      "i only sleep 3 hours a day .",
+      "i always travel alone .",
+      "my favorite meal is steak .",
+      "i am incredibly smart ."
+    ],
+    "user_turns": [
+      "oh my god , what am i doing",
+      "studying , trying at least , 5 children and i decided to go get my bachelors",
+      "help mom read , help mom write , help mom be quiet , they are so silly",
+      "yeah i'm an only child , this is fun . so whats for dinner ?",
+      "maybe . you were not this type of child ?",
+      "agreed , where are you going for xmas ? oh , are you not christian ? ?",
+      "oh , great aunt that sounds cute",
+      "that is so nice , are you going to wear a silly sweater ?"
+    ]
+  },
+  {
+    "persona_index": 7342,
+    "personality": [
+      "i am a vegan .",
+      "i am a registered nurse .",
+      "i enjoy reading .",
+      "my favorite movie is pretty woman .",
+      "i've two smartphones ."
+    ],
+    "user_turns": [
+      "hey there ! tell me about yourself .",
+      "that's cool i love the out doors , and work for discovery",
+      "yeah editing and creating videos for them , like the channel",
+      "same , same it is a very busy time for me .",
+      "well there is a lot of pressure to push out good fake content . . get is aid that",
+      "it is very much so fake , everything but the outdoors i love it out there"
+    ]
+  },
+  {
+    "persona_index": 12170,
+    "personality": [
+      "i just finished training as a security guard .",
+      "i work nights now and like my job .",
+      "i'm a 30 year old male .",
+      "i've two dogs ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i am great . how are you doing ? its great weather for football !",
+      "what kind of dogs do you have ?",
+      "no . i live in a college dorm . i am lucky to get to keep my car !",
+      "what do you do ? night shift can be rough ! my dad does at the er .",
+      "i can imagine . the stadium security guards are pretty nice here .",
+      "the college football stadium . i play here , so i get to know them ."
+    ]
+  },
+  {
+    "persona_index": 5351,
+    "personality": [
+      "i love hot wings .",
+      "i've three kids .",
+      "i'm a truck driver in the south .",
+      "i grew up in the trailer park ."
+    ],
+    "user_turns": [
+      "hi how are you doing ?",
+      "what do you do for a living ?",
+      "what city are you from ?",
+      "do you have any hobbies ?",
+      "do you have any pets ?",
+      "i've two dogs myself",
+      "what kind are you thinking ?"
+    ]
+  },
+  {
+    "persona_index": 11254,
+    "personality": [
+      "i love the water , any water , ocean , river , or lake .",
+      "i like to listen to someone else reading a book .",
+      "i like cartoons more than movies .",
+      "i moved out when i was 14 ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i am good how are you",
+      "do you have a job",
+      "that is awesome have you done anything famous",
+      "that is so cool i am still in high school",
+      "wow how did you do that",
+      "that is nice at least you weren not alone"
+    ]
+  },
+  {
+    "persona_index": 1881,
+    "personality": [
+      "my father died when i was 2 .",
+      "i hate to lose .",
+      "i love fishing .",
+      "my favorite season is spring ."
+    ],
+    "user_turns": [
+      "hi how are you doing ?",
+      "i am ood thanks for asking . fall",
+      "i love animals so i love horses",
+      "i do not but i enjoy horseback riding",
+      "no i am not much of a gambler",
+      "yes they are both alive",
+      "no kids as of yet"
+    ]
+  },
+  {
+    "persona_index": 12480,
+    "personality": [
+      "i enjoy reading .",
+      "i work in the emergency room .",
+      "i'm a nurse .",
+      "i'm divorced .",
+      "my favorite drink is dr pepper ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "sure i don't mind . what book ?",
+      "i'm not sure what that means . what else do you do ?",
+      "that is good , i am ok thanks for asking .",
+      "i bet , i am going to major in business .",
+      "i do not really drink soda but that would be my first choice .",
+      "i do not think soda is good for you ."
+    ]
+  },
+  {
+    "persona_index": 4753,
+    "personality": [
+      "my father is a doctor .",
+      "i am a college student .",
+      "i like action movies .",
+      "i drive a restored mustang .",
+      "i play football ."
+    ],
+    "user_turns": [
+      "phew just got done spending hours at some thrift shops . hows it going ?",
+      "nice to meet you as well . i'm mike a art teacher .",
+      "i do , i would of loved to make some cool clothes for him",
+      "wow that is very awesome to have at 16",
+      "i should make some seat covers for you from my shift finds",
+      "for sure anything you need",
+      "you got it ! maybe you can come thrift shop some patterns with me"
+    ]
+  },
+  {
+    "persona_index": 8150,
+    "personality": [
+      "i've a vacation home in the mountains .",
+      "i've 3 children .",
+      "i drive an suv .",
+      "i've 3 dogs .",
+      "i have a law degree ."
+    ],
+    "user_turns": [
+      "hi there , how are you ?",
+      "hey me too , by they like to do things with clay , like me .",
+      "yes , they love to model , personally i would rather be climbing a mountain !",
+      "they're quite talented but i am not very artistic",
+      "good to know , i accidentally shot a wild animal once .",
+      "i was out on safari and didn't pay attention to the rules !",
+      "the park ranger chased me , your suv would have be handy !",
+      "no , they stayed at home making model animals , bye for now !"
+    ]
+  },
+  {
+    "persona_index": 9089,
+    "personality": [
+      "my favorite thing to do is to go to museums .",
+      "i travel at least once a year .",
+      "i love to watch the voice .",
+      "i graduated from princeton ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "hi how are you today",
+      "wow are you a youtube person",
+      "what else do you do",
+      "that does sound like fun really",
+      "yeah that does sound great",
+      "i really love video games",
+      "i would say halo definitely"
+    ]
+  },
+  {
+    "persona_index": 14580,
+    "personality": [
+      "but , i feel lost and far away from who i truly am .",
+      "i coexist well with my husband .",
+      "i'm a middle aged mother of two high school boys .",
+      "i have a friend group , but i don t like any of them ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "fine thank you just got back from yoga . . do you have any hobbies ?",
+      "well i know how that was when i used to eat meat , always down now i am vegan",
+      "well my dream is to hit it big financially so i can give back to everyone",
+      "well i've cut alot of people out of my life especially over petty sports",
+      "i'm single currently but i hope its not cause i know hockey better then most boys",
+      "i would love to mentor a youth hockey so yes that sounds fun"
+    ]
+  },
+  {
+    "persona_index": 17728,
+    "personality": [
+      "i am deathly afraid of snakes , but not bugs .",
+      "i drink 10 cups of tea every day .",
+      "my favorite color is red .",
+      "i really enjoy hiking ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "great and you ?",
+      "you must be a huge tea fan",
+      "that is one of the colors of my lexus",
+      "love to dance hate snakes too",
+      "snakes and math are my weakness"
+    ]
+  },
+  {
+    "persona_index": 1079,
+    "personality": [
+      "i paint with watercolors .",
+      "i work in finance .",
+      "my favorite color is blue .",
+      "i hate cleaning .",
+      "i am italian american ."
+    ],
+    "user_turns": [
+      "hey ! sorry to keep you waiting",
+      "tell me about yourself",
+      "well i realy enjoy eating pretzels and i work for a railroad",
+      "no i'm color blind , life is pain for me . i love star trek though",
+      "you sound like one of those artsy types",
+      "not really , i don't hate much .",
+      "i work on a rail road , i let trains do their thing",
+      "i mostly watch star trek and listen vv nation , my favorite band"
+    ]
+  },
+  {
+    "persona_index": 15749,
+    "personality": [
+      "i've a ten year old son .",
+      "i am doing financial business now .",
+      "i play piano .",
+      "i graduated high school in 1986 .",
+      "i hope to become a music teacher after retirement ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "really ? small world . my mom teaches , but only kindergarten .",
+      "my dad didn't take the same passion . he's a tax assessor .",
+      "what hobbies do you have ? i like to read anne of green gables .",
+      "my passion is office supplies . i'm a sucker for some new pens and paper !",
+      "yes ! heres the real test . . do you own a pot bellied pig ? i want one !",
+      "girl or boy ? if its a girl , avoid pageants . the one i did was lame ."
+    ]
+  },
+  {
+    "persona_index": 11444,
+    "personality": [
+      "paps likes to go mushroom hunting .",
+      "i have a brown belt in karate .",
+      "grandma makes jewelry .",
+      "i live with my paps and grandma ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "great ! just enjoying the nice texas weather . you ?",
+      "my sister mary and i evacuated but we are back home now",
+      "i write . my dad is journalism so i guess it runs in the family",
+      "special mushrooms ? haha . interesting family hobby",
+      "haha what a time to live . . would have loved to experience that"
+    ]
+  },
+  {
+    "persona_index": 14621,
+    "personality": [
+      "i went to college in chicago .",
+      "i'm the youngest of 3 .",
+      "i love reading mysteries in my free time .",
+      "i m pursuing my law degree .",
+      "i love playing tennis ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "hello , i'm fine ! just in from a run !",
+      "really ? i'm really struggling right now . i've a degree , no work .",
+      "i do not like mysteries . i'm into running while jamming to creed .",
+      "creed is music that i listen to on my headphones while running .",
+      "i love when i get back from running and eat a big steak ! no siblings !",
+      "tennis is fun ! my dad is in prison , no chance to have more kids !",
+      "he was a drug lord ! how are your studies going ?"
+    ]
+  },
+  {
+    "persona_index": 2672,
+    "personality": [
+      "i just moved from va to pa .",
+      "since i've fibromyalgia , the harsher winters here in pa will be rough on me .",
+      "i grew up on a large farm .",
+      "i enjoy doing beadwork and writing my own patterns .",
+      "i love reading ."
+    ],
+    "user_turns": [
+      "hey how are you today ?",
+      "nice . you like it ? i am tanning my olive skin .",
+      "i love skunks . my purse even has a pic of it on there . do you have skunks ?",
+      "fun ! my cat eye glasses compliment my green eyes .",
+      "that's cool . maybe you an make me eyeglass bead chain .",
+      "i like reading too . especially about skunks haha"
+    ]
+  },
+  {
+    "persona_index": 11739,
+    "personality": [
+      "i am disabled and cannot walk .",
+      "i don't eat bread .",
+      "my favorite season is winter .",
+      "my friend once bought me a car ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "just watching my favorite movie 16 candles ! you seen it ?",
+      "oh i guess i'm old . 3 kids will do that to you !",
+      "probably a piece of cheesecake . i just love cheesecake , you ?",
+      "wow ! i need someone to buy me a new car . 300 miles a week for work",
+      "really ? ? that is so nice , but why can you not walk ?",
+      "i love to run . can't imagine what i would do if i could not !",
+      "i'm sorry . i just feel bad . i feel bad your friends bought you a car"
+    ]
+  },
+  {
+    "persona_index": 3995,
+    "personality": [
+      "i had two cats growing up .",
+      "i like to donate time at the local animal shelter .",
+      "i like to hunt .",
+      "i've two children ."
+    ],
+    "user_turns": [
+      "hello , how are you tonight on werewolf day ?",
+      "i'm in the cemetery in my back yard , hanging out with my four dogs .",
+      "i do not , just my fur babies alexa , layla , naomi and bardot .",
+      "i'm a dog person , we love convertibles .",
+      "do you see ghosts at the shelter ?",
+      "do you go to church ? i don't .",
+      "i created my own religion , because i don't believe in any of the christian ones .",
+      "i make jewelry and candles . what do you do ?"
+    ]
+  },
+  {
+    "persona_index": 5595,
+    "personality": [
+      "i love helping people .",
+      "my favorite food is pasta .",
+      "i live in a rural area .",
+      "i'm a older woman .",
+      "i retired so i can spend more time with my husband and helping people ."
+    ],
+    "user_turns": [
+      "well hello ! wanna chat about stuff ? ?",
+      "quite well . thanks for asking . i will be even better when i hit the beach !",
+      "i love corn . its one of my fads . i'm a vegan !",
+      "haha . i can relate . i have worked at an italian restaurant for seven years .",
+      "that is sweet . what sort of music do you enjoy ?",
+      "oh classics . i am more of a country fan . do you read ?",
+      "you must have read the bible a thousand times then ?"
+    ]
+  },
+  {
+    "persona_index": 4069,
+    "personality": [
+      "i m recently divorced .",
+      "i m very shy .",
+      "i m a children s librarian .",
+      "i have no children of my own .",
+      "i wear glasses ."
+    ],
+    "user_turns": [
+      "since i've gotten older , i get angry very easily .",
+      "do you have family ? they are the only people i am not mad with .",
+      "my wife passed years ago . do you hang out at bars ?",
+      "i observe people at the bar . a real life movie . what movies ?",
+      "i appreciate the feel of a good book being 82 . you like your work ?",
+      "i don't . i am 82 . past my prime . i will die alone .",
+      "i have friends at the bar i walk to . you should come with me ."
+    ]
+  },
+  {
+    "persona_index": 8091,
+    "personality": [
+      "i love history .",
+      "i am a technician .",
+      "my mother was an rn .",
+      "my father was a dry wall finisher ."
+    ],
+    "user_turns": [
+      "hey , my name is kirk . whats yours ?",
+      "history is ok , motorcycles are where its at sarah . i'm in a club .",
+      "that is what a grown woman like me likes . motorcycles and tattoos",
+      "i'm technical with my fighting moves . i've never lost . you ever fought before ?",
+      "bet your mother has never been on a highway going 208 mph . have you ?",
+      "what else do you like ?",
+      "jim bean or in the arm ? i prefer jack . . . .",
+      "you are starting to sound like a woman that is grown , like me , now . go sarah !"
+    ]
+  },
+  {
+    "persona_index": 16036,
+    "personality": [
+      "i have lots of friends and can hold a conversation easily .",
+      "i am very athletic .",
+      "i wish i could be more serious about school .",
+      "i have been in a lot of romantic relationships that have ended up poorly .",
+      "i get distracted easily ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "hi . going good just listening to some dope beats .",
+      "yeah . i am in a rap battle . then i will sleep . you ?",
+      "good luck with that . get a pair of nike shoes they're the best man .",
+      "yeah , but i chat all night on my sweet keyboard . no pain here",
+      "girls are too cute . they love rap , just like me . i need a woman",
+      "they're fun sometimes . i need my shut eye though . ten hours a day . right ?",
+      "i cannot , my nose hurts now . i need a soft chair and gangster rap !"
+    ]
+  },
+  {
+    "persona_index": 2746,
+    "personality": [
+      "i drive a ford truck .",
+      "my least favorite music is country .",
+      "i've long flowing hair .",
+      "i'm nearly 6 tall ."
+    ],
+    "user_turns": [
+      "hello ! how are you today ?",
+      "could be better i've a lot of work",
+      "that sounds very tiring . i'm trying to write a book",
+      "it is about my life",
+      "oh no no no , i don't like country",
+      "i'm . well will be soon when i get this book done",
+      "about 30 more chapters",
+      "what sort of things would you say ?"
+    ]
+  },
+  {
+    "persona_index": 12367,
+    "personality": [
+      "i just bought new hoop earrings .",
+      "i love nighttime .",
+      "i am an artist .",
+      "i've a cat named charlie .",
+      "my favorite food is pizza ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "hello . how are you doing today ?",
+      "what is a hobby of yours ?",
+      "i am a blogger . i love what i do .",
+      "yes it is . i live in florida . where do you live ?",
+      "nice . what part of the state do you live ?",
+      "orlando . do you like shopping ? i love it .",
+      "i said i love it ."
+    ]
+  },
+  {
+    "persona_index": 2504,
+    "personality": [
+      "i like going to foreign countries .",
+      "i have 3 cats .",
+      "i dye my hair blonde .",
+      "i love dancing .",
+      "i'm an only child ."
+    ],
+    "user_turns": [
+      "off for a day at the beach with my nieces ! you ?",
+      "that's neat ! where are you going ? my life is a permanent vacation .",
+      "get a cat sitter ! if i lived near you , i'd sit your cats . i love kitties .",
+      "too far . too bad . my mom and dad used to live in drop city .",
+      "i am too , but we are hippies , so everyone is family .",
+      "oh , yeah . i love these colors right now fuschia , lime green , electric purple .",
+      "oooo , i couldn't live without color . life has to be fun !",
+      "so what are your hobbies ?"
+    ]
+  },
+  {
+    "persona_index": 10472,
+    "personality": [
+      "i got married 10 years later .",
+      "i escaped and later became a carpenter .",
+      "i was a slave for 10 years .",
+      "my favorite color is red .",
+      "i was the first born child ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "were you in prison before ?",
+      "a slave ? to whom were you enslaved ?",
+      "how frightful ! is there anything i can do to help you ? i love helping people !",
+      "would you like to come to dinner and meet my family sometime ?",
+      "of course ! you can meet my husband and two children",
+      "i will serve sushi for dinner , it is my favorite thing to eat"
+    ]
+  },
+  {
+    "persona_index": 7677,
+    "personality": [
+      "my father is a preacher .",
+      "i've a horse named beauty .",
+      "my husband is a soldier in the us army .",
+      "i live in a house in the country ."
+    ],
+    "user_turns": [
+      "i'm watering my flower garden . what are you up to ?",
+      "i'm gonna watch some anime later . what are your hobbies ?",
+      "cool . i have horses as the background on both of my laptops .",
+      "is he in the army ? i'm craving chocolate right now .",
+      "did your father pass on ?",
+      "how can anyone ever stop liking chocolate !",
+      "haha yeah same here lol",
+      "thank you . you do as well ."
+    ]
+  },
+  {
+    "persona_index": 15606,
+    "personality": [
+      "i don t have a lot of friends .",
+      "i'm stuck in a wheel chair .",
+      "i like to go to the park .",
+      "i read a lot ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "i want to get all of my stuffs to be red like my clothing",
+      "oh , just try to put red lipstick , just like i do to be happy",
+      "red shoes too makes me feel confident",
+      "my red car be a great trends too",
+      "red stuff can be a significant part of happiness with my red purse",
+      "my car is a family car , all can fit in . just come ride with us"
+    ]
+  },
+  {
+    "persona_index": 593,
+    "personality": [
+      "my favorite music genre is classical .",
+      "i play many instruments .",
+      "i like to travel .",
+      "i give lessons on string instruments ."
+    ],
+    "user_turns": [
+      "sitting here eating pistachio ice cream while watching videos .",
+      "medical videos mostly about surgeries and britney spears . love her .",
+      "her music inspires me . i am very social , are you ?",
+      "i travel too ! meeting people from around the world is awesome .",
+      "do you go out to concerts or clubs ?",
+      "nice . i used to play violin when i was a child . but i quit .",
+      "do you play in an orchestra or just teach the instruments ?",
+      "beautiful . maybe , one day i will play again ."
+    ]
+  },
+  {
+    "persona_index": 2013,
+    "personality": [
+      "my friend likes cartoons like south park .",
+      "some jokes go too far .",
+      "i like the flintstones .",
+      "i like simple jokes ."
+    ],
+    "user_turns": [
+      "hey i'm a construction worker",
+      "oh cool do you like or love southpark ?",
+      "really ? jokes are awesome !",
+      "i like to play poker and drink ? lol",
+      "i am jk me nighter never learned haha",
+      "drinks ! are the best lol"
+    ]
+  },
+  {
+    "persona_index": 5348,
+    "personality": [
+      "i am a family man .",
+      "i spend as much time as i can with my family .",
+      "i'm married with 2 children .",
+      "i'm a pediatrician ."
+    ],
+    "user_turns": [
+      "hello there , stranger ! how are you ?",
+      "i'm ok actually . had a pretty good day . what are you up to ?",
+      "nice ! well , for a career i am actually a party planner . on the side i am a comedian .",
+      "i bet they would . i have been gravitating towards more family friends material .",
+      "sure , why not . i can try and get you free seats .",
+      "lets see . when are you two next free ?",
+      "well , during the week i am swamped but during the weekends i try and perform .",
+      "well , i've a show coming up in two weeks ."
+    ]
+  },
+  {
+    "persona_index": 5937,
+    "personality": [
+      "i live on a lake .",
+      "i'm a average american youth .",
+      "i fell in love this summer .",
+      "i enjoy summer walking and reading ."
+    ],
+    "user_turns": [
+      "hello , how are you today ?",
+      "i am tired , just got off work . i've a radio job .",
+      "so , you are in college ? i took foreign language in college .",
+      "that's wonderful . marriage in your future ? i am single .",
+      "nice safe area ? i've to carry an edged weapon when i go for a walk .",
+      "bad part of california . how about those wild fires ?",
+      "i actually started a wild fire in cali when i was about your age .",
+      "where are you from ? i speak about six languages , but stay put in one state ."
+    ]
+  },
+  {
+    "persona_index": 354,
+    "personality": [
+      "i live with my parents and my little brother .",
+      "i am in 3rd grade .",
+      "i am a french girl , but i moved to the us last year .",
+      "i like to play soccer , draw and read asterix .",
+      "i don t have too many friends in the us yet , but i am going to summer camp and i hope to make friends then ! i also think that i may make friends as soccer in the fall ."
+    ],
+    "user_turns": [
+      "hello , what is your favorite season of the year ?",
+      "winter . i wish i was able to play sports but i'm unable to walk .",
+      "i have one dear friend that once bought me a car due to being wheelchair bound .",
+      "i get colds easy so i take a lot of vitamin c . how about you ?",
+      "do you have a vehicle ?",
+      "oh i see . so do you like it here in the united states ?",
+      "i am sure with time you will have lots of friends ! you seem very sweet !",
+      "yes , i sure do remember those days and how much fun we all had ! !"
+    ]
+  },
+  {
+    "persona_index": 1134,
+    "personality": [
+      "i am a freshman at nyu .",
+      "my favorite color is blue .",
+      "i'm the youngest in my family .",
+      "i've two older brothers .",
+      "my passion is photography ."
+    ],
+    "user_turns": [
+      "hello , my names mary . how are you doing today ?",
+      "could be better . super busy because i'm a fulltime student studying radiology",
+      "very cool ! do you also work while you are in school ?",
+      "very nice ! do you have ample time to take photographs ?",
+      "mine is blue too ! what do you study ?",
+      "sounds like you are from an artistic family !",
+      "my dad is a doctor so i sometimes work as a receptionist at his office"
+    ]
+  },
+  {
+    "persona_index": 167,
+    "personality": [
+      "i love reading .",
+      "i enjoy doing beadwork and writing my own patterns .",
+      "i just moved from va to pa .",
+      "since i have fibromyalgia , the harsher winters here in pa will be rough on me .",
+      "i grew up on a large farm ."
+    ],
+    "user_turns": [
+      "hi how are you doing",
+      "i did not get a call back after my addition better luck next time",
+      "what don't you like about it",
+      "ah i see what brought you to pa",
+      "i see do you want to continue the farm life forever ?",
+      "i really like to cook i tried out for a cooking show",
+      "that's pretty cool do you make jewelry",
+      "no the audition was for the cooking show"
+    ]
+  },
+  {
+    "persona_index": 1048,
+    "personality": [
+      "i've three children .",
+      "my parents do not really speak english , but i speak italian and english .",
+      "i got married when i was young .",
+      "i moved to america when i was 14 .",
+      "i like to cook ."
+    ],
+    "user_turns": [
+      "hi , i grew up in toronto canada . you ?",
+      "i am japanese but my parents immigrated to canada when i was born .",
+      "my parents always spoke it at home so yes and english and french .",
+      "do you like italian food ? i love mcdonald french fries .",
+      "that is awesome . i cannot cook but i can shop with the best of them .",
+      "could you teach me how to cook something italian ?"
+    ]
+  },
+  {
+    "persona_index": 12782,
+    "personality": [
+      "i am writing a novel .",
+      "my favorite tv show is rick and morty .",
+      "my favorite color is black .",
+      "i own an iphone .",
+      "i don t like pickles ."
+    ],
+    "user_turns": [
+      "__ SILENCE __",
+      "great ! just picked up the keys to my first house !",
+      "i enjoy writing so much ! i know exactly how you feel",
+      "i bought it ! it has the perfect nook for writing all night",
+      "i'm passionate about bbq , writing a bbq book right now",
+      "it sounds like a superb writing environment",
+      "the pickles are the best part of the whole experience though !",
+      "i like the hunting shows , like duck dynasty"
+    ]
+  },
+  {
+    "persona_index": 4226,
+    "personality": [
+      "i've five cats .",
+      "my husband is the ceo of taco bell .",
+      "madonna is my sister .",
+      "i am next in line to become queen of england .",
+      "my favorite color is blue ."
+    ],
+    "user_turns": [
+      "how are you doing today",
+      "my name is penny what are you up to ?",
+      "do you know who manta rays is ?",
+      "it is an animal lol",
+      "have you ever swam with them ? it is intense",
+      "who is steve ? what is your favorite show ?",
+      "oh i am sorry to hear that",
+      "i love the summer time so much"
+    ]
+  },
+  {
+    "persona_index": 1824,
+    "personality": [
+      "i just started college .",
+      "i've 3 science classes .",
+      "i work part time in the campus library .",
+      "i am living at home but hope to live in the dorms next year ."
+    ],
+    "user_turns": [
+      "hi how are you doing",
+      "nice where do you work",
+      "that's cool i just live off my girlfriends salary",
+      "that's cool do you like to cook",
+      "that sounds so interesting i like to cook brunch on the weekends",
+      "wow is that your major ?",
+      "wow what do you want to do after school",
+      "cool i wish i knew more about science"
+    ]
+  }
+]

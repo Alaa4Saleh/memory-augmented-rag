@@ -1,8 +1,7 @@
 """
 evaluate_memory_results.py
 
-Reads results from:
-  results/gemini_memory_runs.jsonl
+Reads results from the results files
 
 Computes per-probe and per-method metrics:
   - cosine similarity between gold_answer and model_answer
@@ -10,7 +9,7 @@ Computes per-probe and per-method metrics:
   - composite memory_score = 0.6 * cosine + 0.4 * keyword_recall
 
 Outputs:
-  results/memory_eval_summary.csv
+  results/memory_eval_summary.csv 
 
 Requirements:
   pip install sentence-transformers numpy pandas
@@ -190,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

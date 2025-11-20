@@ -46,5 +46,5 @@ This is *exactly* the RAG principle, applied not to external text but to convers
 
 ---
 
-## 🧩 RAG Memory Architecture (Our System)
+##  RAG Memory Architecture (Our System)
 

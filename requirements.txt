@@ -1,0 +1,9 @@
+python-dotenv
+langdetect
+google-generativeai
+tqdm
+datasets
+numpy
+pandas
+sentence-transformers
+torch

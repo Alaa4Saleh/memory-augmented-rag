@@ -10,7 +10,6 @@ import os
 # -------------------------------------
 load_dotenv()
 API_KEY = os.getenv("API_KEY")      # from .env file
-INPUT_PERSONAS = Path("data/persona_chat_clean.json")
 OUTPUT_PATH = Path("data/memory_eval_dataset.json")
 
 NUM_CONVERSATIONS = 30
@@ -27,7 +26,6 @@ def llm(prompt, max_tokens=350):
     """
     Calls any strong API using only the API key.
     No model name is exposed here by design.
-    You can plug in any client library.
     """
 
     import openai
@@ -52,10 +50,6 @@ def llm(prompt, max_tokens=350):
 # FILLER MESSAGE GENERATOR
 # -------------------------------------
 def gen_filler_turn(persona_facts, history):
-    """
-    Generates a natural, persona-consistent user message.
-    High-quality, clean English. No inappropriate content.
-    """
     prompt = f"""
 You are generating a single USER message for a conversation.
 
@@ -82,15 +76,6 @@ Only output the message, nothing else.
 # PROBE GENERATION (EXPLICIT + IMPLICIT)
 # -------------------------------------
 def gen_probe(persona_facts, history):
-    """
-    Generates either:
-    - an explicit memory probe (direct recall)
-    - an implicit memory probe (indirect recall)
-
-    EXACT rules based on your final instructions:
-      - Explicit example: "What diet did I say I am on?"
-      - Implicit example: "Suggest a meal recipe for me"
-    """
     prompt = f"""
 Create ONE memory probe question for a memory-evaluation dataset.
 
@@ -117,12 +102,6 @@ Rules:
 # GOLD ANSWER + KEYWORDS
 # -------------------------------------
 def gen_gold_answer(persona_facts, probe):
-    """
-    Gold answers must:
-      - Correctly reflect the persona fact being tested
-      - Remain concise and unambiguous
-      - Provide a few strong keywords for later scoring
-    """
     prompt = f"""
 Persona facts:
 {persona_facts}
@@ -146,19 +125,39 @@ Only output this exact format.
 
 
 # -------------------------------------
-# LOAD PERSONAS FROM FILE
+# DOWNLOAD & CLEAN PERSONA-CHAT
 # -------------------------------------
 def load_personas():
-    with INPUT_PERSONAS.open("r", encoding="utf-8") as f:
-        data = json.load(f)
+    """
+    Automatically downloads the Persona-Chat dataset and 
+    extracts clean English persona facts.
+    """
+
+    from datasets import load_dataset
+    dataset = load_dataset("AlekseyKorshuk/persona-chat")
 
     personas = []
-    for p in data:
-        if "persona" in p:
-            cleaned = [x for x in p["persona"] if isinstance(x, str)]
-            text = " ".join(cleaned).strip()
-            if text:
-                personas.append(text)
+
+    # Combine train + valid personas
+    all_entries = list(dataset["train"]) + list(dataset["valid"])
+
+    for entry in all_entries:
+        if "persona" not in entry:
+            continue
+
+        persona_list = entry["persona"]
+
+        # clean: keep only strings, English only, meaningful
+        cleaned = []
+        for line in persona_list:
+            if not isinstance(line, str):
+                continue
+            if len(line.strip()) < 3:
+                continue
+            cleaned.append(line.strip())
+
+        if cleaned:
+            personas.append(" ".join(cleaned))
 
     return personas
 
@@ -173,22 +172,23 @@ def build_conversation(conv_id, persona):
     turn_count = random.randint(MIN_TURNS, MAX_TURNS)
 
     for t in range(1, turn_count + 1):
-        # Decide if this is a probe turn
-        if t % 5 == 0:  # Exactly as you required
+        # Exactly as you requested: probe every 5 turns
+        if t % 5 == 0:
             probe = gen_probe(persona, history)
             gold = gen_gold_answer(persona, probe)
 
             # Parse gold answer
             lines = gold.split("\n")
             ans = lines[0].replace("ANSWER:", "").strip()
-            kws = lines[1].replace("KEYWORDS:", "").strip()
+            kw_raw = lines[1].replace("KEYWORDS:", "").strip()
+            keywords = json.loads(kw_raw)
 
             turns.append({
                 "turn": t,
                 "type": "probe",
                 "prompt": probe,
                 "gold_answer": ans,
-                "keywords": json.loads(kws)
+                "keywords": keywords
             })
 
             history.append(probe)
@@ -214,6 +214,7 @@ def build_conversation(conv_id, persona):
 # -------------------------------------
 def main():
     personas = load_personas()
+    print(f"Loaded {len(personas)} personas from Persona-Chat.")
 
     dataset = []
     for i in range(NUM_CONVERSATIONS):
@@ -221,10 +222,11 @@ def main():
         conv = build_conversation(i + 1, persona)
         dataset.append(conv)
 
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(dataset, f, indent=2, ensure_ascii=False)
 
-    print(f"Saved dataset to {OUTPUT_PATH}")
+    print(f"Saved memory evaluation dataset → {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

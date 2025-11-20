@@ -1,7 +1,7 @@
 """
 run_memory_experiments.py
 
-Runs Gemini on data/final_persona_data.json with multiple memory methods:
+Runs Gemini on the data files with multiple memory methods:
   - no_memory
   - sliding_window
   - retrieval
@@ -13,7 +13,7 @@ For each probe turn (explicit or implicit), it:
   - saves model answers + metadata
 
 Output:
-  results/gemini_memory_runs.jsonl   (one JSON object per probe)
+  results files   (one JSON object per probe)
 
 Requirements:
   pip install google-generativeai sentence-transformers numpy
@@ -49,7 +49,6 @@ DATA_PATH = Path("C:\\Users\\LENOVO\\PycharmProjects\\DataLab2\\data\\memory_eva
 RESULTS_DIR = Path("results")
 RESULTS_PATH = RESULTS_DIR / "gemini_memory_runs3.jsonl"
 
-# Gemini model name – adjust if you want 1.5-pro instead
 GEMINI_MODEL_NAME = "gemini-2.5-flash"
 
 # Memory methods to run
@@ -82,10 +81,9 @@ def ensure_results_dir():
 
 class SimpleRetriever:
     """
-    Very simple per-probe retriever:
       - For each probe, we embed persona facts + previous filler prompts
       - We embed the probe prompt and pick top_k by cosine similarity
-    No FAISS, just numpy and sentence-transformers.
+    We used numpy and sentence-transformers.
     """
     def __init__(self, model_name: str = EMBEDDING_MODEL_NAME):
         self.model = SentenceTransformer(model_name)
@@ -423,3 +421,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
